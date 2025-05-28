@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "roalvarado02.github.io"
+  title: "Rachel Alvarado"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - education.qmd
+      - extracurriculars.qmd
+      - projects.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: Sketchy
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

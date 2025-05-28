@@ -1,10 +1,22 @@
 ---
-title: "roalvarado02.github.io"
+title: "Rachel Alvarado"
+image: headshot.png
+toc: false
+about: 
+  template: jolla
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: LinkedIn
+      href: https://www.linkedin.com/in/rachel-alvarado-9b5823221
+    - text: GitHub
+      href: https://github.com/roalvarado02
+    - text: Email
+      href: mailto::roalvarado@ucsb.edu 
+      
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+About me
 
 ```{r}
 1 + 1
