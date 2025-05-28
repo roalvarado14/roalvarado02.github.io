@@ -11,6 +11,27 @@
     "href": "index.html",
     "title": "Rachel Alvarado",
     "section": "",
-    "text": "About me\n\n1 + 1\n\n[1] 2"
+    "text": "About me description\nListed interest areas"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Resume attached\nDifferent chosen homework assignments, case studies, and projects attached."
+  },
+  {
+    "objectID": "extracurriculars.html",
+    "href": "extracurriculars.html",
+    "title": "Extracurriculars",
+    "section": "",
+    "text": "Clubs joined with images and descriptions.\nInternships and labs with descriptions.\nVolunteer experience with images and descriptions."
+  },
+  {
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education",
+    "section": "",
+    "text": "Community college I went to and description of my experience. [Image included]\nUniversity I attended and description of my experience. [Image included]\nStudy abroad university I attended and description of my experience. [Image included]\nList of classes I’ve taken at UCSB and their descriptions/what I learned."
   }
 ]
