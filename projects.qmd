@@ -3,3 +3,6 @@ title: "Projects"
 format: html
 ---
 
+Resume attached
+
+Different chosen homework assignments, case studies, and projects attached. 

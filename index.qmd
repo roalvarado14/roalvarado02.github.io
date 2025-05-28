@@ -16,8 +16,6 @@ about:
       
 ---
 
-About me
+About me description
 
-```{r}
-1 + 1
-```
+Listed interest areas
