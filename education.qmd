@@ -3,10 +3,10 @@ title: "Education"
 format: html
 ---
 
-Community college I went to and description of my experience. [Image included]
+Community college I went to and description of my experience. \[Image included\]
 
-University I attended and description of my experience. [Image included]
+University I attended and description of my experience. \[Image included\]
 
-Study abroad university I attended and description of my experience. [Image included]
+Study abroad university I attended and description of my experience. \[Image included\]
 
 List of classes I've taken at UCSB and their descriptions/what I learned.
