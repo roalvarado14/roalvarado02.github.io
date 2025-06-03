@@ -16,6 +16,6 @@ about:
       
 ---
 
-About me description
+## About me 
 
-Listed interest areas
+Welcome to my website! My name is Rachel Alvarado and I am a fourth year Environmental Studies major attending UC Santa Barbara. I am interested in habitat conservation and environmental consulting and I intend to work with the city of Los Angeles upon graduating. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests. 
