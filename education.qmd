@@ -3,10 +3,152 @@ title: "Education"
 format: html
 ---
 
-Community college I went to and description of my experience. \[Image included\]
+::: gray-block
+<p>[University of California, Santa Barbara]{.h2}</p>
 
-University I attended and description of my experience. \[Image included\]
+<p>[Sep 2022 – Jun 2025]{.programdate}</p>
 
-Study abroad university I attended and description of my experience. \[Image included\]
+<p>[Bachelor of Science]{.h4}</p>
 
-List of classes I've taken at UCSB and their descriptions/what I learned.
+<ul>
+
+<li>Cumulative GPA: 3.7 (Honors/Cum Laude)</li>
+
+</ul>
+
+<p><strong>Description:</strong> Your description goes here.</p>
+:::
+
+\[Small Image\]
+
+::: gray-block
+<p>[Santa Monica College]{.h2}</p>
+
+<p>[Sep 2020 – May 2022]{.programdate}</p>
+
+<p>[Associate's Degree]{.h4}</p>
+
+<ul>
+
+<li>Cumulative GPA: 3.5 (Honors/Cum Laude)</li>
+
+</ul>
+
+<p><strong>Description:</strong> Most of my time during community college was during quarantine.</p>
+:::
+
+\[Small Image\]
+
+::: gray-block
+<p>[International Christian University]{.h2}</p>
+
+<p>[March 2024 – June 2024]{.programdate}</p>
+
+<p>[Study Abroad Program]{.h4}</p>
+
+<p><strong>Description:</strong> Participated in a trimester-long study abroad program at International Christian University (ICU) in Tokyo, Japan. Engaged in courses within the liberal arts curriculum, enhancing cross-cultural communication skills and gaining exposure to Japanese academic and cultural environments. The program emphasized bilingual education and offered opportunities to interact with a diverse international student body.</p>
+:::
+
+\[Small Images\]
+
+::: notable-coursework
+<h2>Notable Coursework</h2>
+
+<h3>Renewable Energy Systems – UCSB</h3>
+
+<ul>
+
+<li>Examining economic policies</li>
+
+<li>Energy storage</li>
+
+<li>Wind, solar, tidal, geothermal energy systems</li>
+
+</ul>
+
+<h3>Green Building – UCSB</h3>
+
+<ul>
+
+<li>Systems to reduce energy demand</li>
+
+<li>Implementing renewable energy and materials</li>
+
+<li>Cost implications</li>
+
+<li>Analyzing energy efficient systems</li>
+
+</ul>
+
+<h3>Geographic Information System (GIS) – UCSB</h3>
+
+<ul>
+
+<li>Capture, manage, analyze, and share spatial data</li>
+
+<li>Create maps based on findings</li>
+
+<li>Windows proficiency</li>
+
+<li>Generate clear spatial questions</li>
+
+</ul>
+
+<h3>Environmental Statistics – UCSB</h3>
+
+<ul>
+
+<li>Understand basic probability and statistics</li>
+
+<li>Select statistical analyses for hypotheses</li>
+
+<li>Analyze and visualize data using R coding</li>
+
+<li>Ensure reproducibility and collaboration</li>
+
+<li>Interpret results in environmental contexts</li>
+
+</ul>
+
+<h3>Engineering and Environmental Geology – UCSB</h3>
+
+<ul>
+
+<li>Recording and analyzing aerial imagery</li>
+
+<li>Analyzing fire, flood, air quality hazards</li>
+
+<li>Analyzing and plotting water level data</li>
+
+<li>Examining oil well safety</li>
+
+<li>Reporting and presenting findings</li>
+
+</ul>
+
+<h3>Biology Laboratory – Los Angeles Community College</h3>
+
+<ul>
+
+<li>Microscope proficiency</li>
+
+<li>Animal behavior</li>
+
+<li>Osmosis and diffusion</li>
+
+<li>Cellular respiration</li>
+
+<li>Gel electrophoresis</li>
+
+</ul>
+
+<h3>Conservation Planning – UCSB</h3>
+
+<li>Monitoring and adaptive management</li>
+
+<li>Developing conservation plans for different species and ecosystems</li>
+
+<li>Miradi profficiency</li>
+
+<li>Fundamental objectives charts and webs</li>
+:::
