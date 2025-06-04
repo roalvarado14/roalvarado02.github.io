@@ -9,8 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - education.qmd
+      - posts.qmd
       - extracurriculars.qmd
-      - posts.qmd 
 
 format:
   html:

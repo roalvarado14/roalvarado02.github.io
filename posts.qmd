@@ -8,3 +8,4 @@ listing:
 format: html
 ---
 
+A glimpse into my journey at UCSB — featuring case studies, creative projects, and thoughtful reflections. My latest resume is also included.
