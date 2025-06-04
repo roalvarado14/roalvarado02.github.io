@@ -1,10 +1,108 @@
 ---
-title: "Extracurriculars"
+title: "Interests: Learn More About Me"
 format: html
 ---
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 1em;
+}
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
 
-Clubs joined with images and descriptions.
+/* Hover effect */
+.image-grid img:hover {
+  transform: scale(2.00);  /* bigger zoom */
+  filter: brightness(90%);
+  cursor: pointer;
+  z-index: 10;  /* so hovered image stays on top */
+  position: relative;  /* needed for z-index to work */
+}
 
-Internships and labs with descriptions.
+}
+</style>
 
-Volunteer experience with images and descriptions.
+
+<!-- Inline CSS to define 5-column grid -->
+<style>
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 1em;
+}
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+</style>
+
+## Animals Over People
+<hr>
+
+<p>I’ve always loved being around animals—whether volunteering at sanctuaries, fostering pets, or exploring wildlife in nature. This section captures some of the moments that reflect that passion.</p>
+
+<!-- Important: No blank lines between the div and images -->
+<div class="image-grid"><img src="images/animals over people/IMG_5981.jpg" alt="Flakey">
+<img src="images/animals over people/IMG_5977.jpg" alt="deer">
+<img src="images/animals over people/IMG_5975.jpg" alt="ostrich">
+<img src="images/animals over people/IMG_5976.jpg" alt="pigs">
+<img src="images/animals over people/IMG_5973.jpg" alt="fish">
+<img src="images/animals over people/IMG_5979.jpg" alt="seals">
+<img src="images/animals over people/IMG_5972.jpg" alt="cat">
+<img src="images/animals over people/IMG_5980.jpg" alt="Flakey">
+<img src="images/animals over people/IMG_5970.jpg" alt="guinea pig">
+<img src="images/animals over people/IMG_5978.jpg" alt="flakey">
+<img src="images/animals over people/IMG_5969.jpg" alt="guinea pig">
+<img src="images/animals over people/IMG_5983.jpg" alt="petunia">
+<img src="images/animals over people/IMG_5982.jpg" alt="meerkat">
+<img src="images/animals over people/kissflakey.JPG" alt="flakey">
+<img src="images/animals over people/IMG_5971.jpg" alt="hamster"></div>
+
+
+---
+
+## Gardening
+
+<hr>
+
+<p>Gardening has been a hands-on way for me to learn about soil health, native plants, and sustainable practices—especially through my work with the church and the DWP.</p>
+
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 2rem;">
+
+<img src="images/garden1.jpg" alt="Planting vegetables at the church garden" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/garden2.jpg" alt="Raised beds at DWP site" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/garden3.jpg" alt="Watering native plants" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/garden4.jpg" alt="Composting station" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/garden5.jpg" alt="Group volunteer day" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+
+</div>
+
+---
+
+## Collaborating with the Community
+
+<hr>
+
+<p>I’ve had the privilege to learn from and work alongside members of the Chumash community. This experience helped me better understand Indigenous stewardship, traditional ecological knowledge, and cultural history.</p>
+
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem; margin-top: 2rem;">
+
+<img src="images/chumash1.jpg" alt="Chumash cultural site visit" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/chumash2.jpg" alt="Participating in restoration work" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/chumash3.jpg" alt="Collecting native seeds" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/chumash4.jpg" alt="Learning about basketry techniques" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+<img src="images/chumash5.jpg" alt="Ceremony gathering" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;">
+
+</div> 

@@ -2,18 +2,36 @@
 title: "Rachel Alvarado"
 image: headshot.png
 toc: false
+
+page-footer:
+  background: light
+  left: "© 2025 Rachel Alvarado"
+  right: |
+    This website is built with 
+    <i class="fas fa-heart" title="heart" style="color:red;"></i>,
+    <a href="https://github.com/roalvarado02/roalvarado02.github.io" target="_blank">
+      <i class="fab fa-github" title="GitHub" style="margin: 0 0.25em;"></i>
+    </a>,
+    <a href="https://www.r-project.org/about.html" target="_blank">
+      <i class="fab fa-r-project" title="R Project" style="margin: 0 0.25em;"></i>
+    </a>, and 
+    <a href="https://quarto.org/" target="_blank">Quarto</a>
+
 about: 
   template: jolla
   image-shape: round
   image-width: 17em
   links:
     - text: LinkedIn
-      href: https://www.linkedin.com/in/rachel-alvarado-9b5823221
+      href: https://www.linkedin.com/in/rachel-alvarado-9b5823221/
+      target: _blank
     - text: GitHub
       href: https://github.com/roalvarado02
+      target: _blank
     - text: Email
-      href: mailto::roalvarado@ucsb.edu 
-      
+      href: mailto:roalvarado@ucsb.edu
+      target: _blank
+
 ---
 
 ## About me 
