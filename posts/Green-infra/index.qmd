@@ -13,3 +13,6 @@ image: green.png
 draft: false
 format: html
 ---
+::: {style="display: flex; justify-content: center;"}
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub?embedded=true"></iframe>
+:::
