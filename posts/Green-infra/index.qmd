@@ -1,6 +1,6 @@
 ---
 title: "City-Scale Building - Exploring the Benefits of Green Infrastructure" 
-description: "This report explores how green infrastructure can transform major cities into more sustainable, livable spaces. It highlights global examples, practical strategies, and key environmental, social, and economic benefits."
+description: "This report explores how major urban centers can be reimagined through the integration of green infrastructure. Green infrastructure is an approach that blends natural elements with city planning to foster environmental resilience, social well-being, and economic sustainability. Drawing from global case studies in Singapore, Bhutan, Japan, and more, it examines the far-reaching benefits of urban greenery, including reduced urban heat, improved mental health, and long-term cost savings. It also addresses the cultural, logistical, and policy challenges that hinder widespread adoption in the U.S., proposing feasible solutions to overcome them. Through evidence-based analysis and actionable strategies, the report makes a strong case for a greener, more livable urban future."
 author:
   - name: Rachel Alvarado 
     url: https://roalvarado02.github.io/
@@ -13,6 +13,9 @@ image: green.png
 draft: false
 format: html
 ---
+
 ::: {style="display: flex; justify-content: center;"}
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub?embedded=true"></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub?embedded=true" width="90%" height="800">
+
+</iframe>
 :::

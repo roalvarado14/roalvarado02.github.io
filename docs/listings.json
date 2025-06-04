@@ -2,12 +2,12 @@
   {
     "listing": "/posts.html",
     "items": [
+      "/posts/resume/index.html",
       "/posts/erosion/index.html",
       "/posts/Planning-commission/index.html",
       "/posts/gardening/index.html",
       "/posts/IV/index.html",
       "/posts/Green-infra/index.html",
-      "/posts/resume/index.html",
       "/posts/Site-consulting/index.html"
     ]
   }

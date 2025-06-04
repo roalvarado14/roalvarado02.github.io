@@ -4,7 +4,7 @@ description: "My updated resume including my education, leadership experience, a
 author:
   - name: Rachel Alvarado
     url: https://roalvarado02.github.io/
-date: 06-04-23
+date: 06-04-25
 categories: [Resume]
 citation: 
   url: https://roalvarado02.github.io/posts/resume
@@ -13,7 +13,11 @@ format: html
 sidebar:
   show: false
 ---
-<div style="display: flex; justify-content: center;">
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vS1cBv3hPrGxY8E7SZWdvTRHS7ZLnwkGy2_F6hsVGHrKiXSpeuk2FVxn6HcjIoaxbvLvgj7Pqz6jizh/pub?embedded=true" width="65%" height="800" ></iframe>
-</div>
----
+
+::: {style="display: flex; justify-content: center;"}
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS1cBv3hPrGxY8E7SZWdvTRHS7ZLnwkGy2_F6hsVGHrKiXSpeuk2FVxn6HcjIoaxbvLvgj7Pqz6jizh/pub?embedded=true" width="65%" height="800">
+
+</iframe>
+:::
+
+------------------------------------------------------------------------

@@ -13,3 +13,9 @@ image: city.png
 draft: false
 format: html
 ---
+
+::: {style="display: flex; justify-content: center;"}
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub?embedded=true" width="200%" height="800">
+
+</iframe>
+:::
