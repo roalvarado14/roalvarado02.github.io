@@ -1,158 +1,70 @@
 ---
-title: "Education"
+title: "Education - Schools Attended"
 format: html
 ---
 
 ::: gray-block
-<p>[University of California, Santa Barbara]{.h2}</p>
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 3rem;">
 
-<p>[Sep 2022 – Jun 2025]{.programdate}</p>
+<!-- UCSB -->
+<div style="flex: 1;">
+  <p style="font-size: 1.5rem; font-weight: bold; display: flex; align-items: center; gap: 0.5rem;">
+    <img src="images/ucsb-logo.gif" alt="UCSB Logo" style="height: 30px;"> University of California, Santa Barbara
+  </p>
+  <p class="programdate">Sep 2022 – Jun 2025</p>
+  <p><span class="h4">Bachelor of Science</span></p>
+  <ul>
+    <li>Cumulative GPA: 3.7 (Honors/Cum Laude)</li>
+  </ul>
+  <p> I transferred to UC Santa Barbara in 2022, initially as a chemistry major. However, by the end of my first year, I discovered a deep interest in environmental science. We are living in a critical era—where climate change accelerates, biodiversity declines, and pollution levels rise—yet political inaction and denial persist at the highest levels. This reality motivated me to change my major. Since then, I’ve found purpose in studying renewable energy, sustainable urban planning, building certification systems, and critically evaluating the effectiveness of environmental strategies. My natural skepticism pushed me to approach research and case studies with rigor and curiosity, questioning assumptions and seeking practical solutions. I've grown a lot during my time at UCSB—academically and personally—and have come to truly appreciate the campus and its vibrant community.</p>
+</div>
 
-<p>[Bachelor of Science]{.h4}</p>
+<div style="flex-shrink: 0;">
+  <img src="images/ucsb-campus.jpg" alt="UCSB Campus" style="height: 200px; border-radius: 8px;">
+</div>
 
-<ul>
-
-<li>Cumulative GPA: 3.7 (Honors/Cum Laude)</li>
-
-</ul>
-
-<p><strong>Description:</strong> Your description goes here.</p>
+</div>
 :::
-
-\[Small Image\]
 
 ::: gray-block
-<p>[Santa Monica College]{.h2}</p>
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 3rem;">
 
-<p>[Sep 2020 – May 2022]{.programdate}</p>
+<!-- SMC -->
+<div style="flex: 1;">
+  <p style="font-size: 1.5rem; font-weight: bold; display: flex; align-items: center; gap: 0.5rem;">
+    <img src="images/smc-logo.jpg" alt="SMC Logo" style="height: 30px;"> Santa Monica College
+  </p>
+  <p class="programdate">Sep 2020 – May 2022</p>
+  <p><span class="h4">Associate's Degree</span></p>
+  <ul>
+    <li>Cumulative GPA: 3.4</li>
+  </ul>
+  <p> I attended Santa Monica College from 2020 to 2022 during the height of the COVID-19 pandemic, with most of my coursework taking place online. It wasn’t until my final semester that I was able to experience the campus in person, where I finally connected with peers and built meaningful friendships. My academic focus during this time was heavily centered on STEM, particularly chemistry and mathematics. It was at SMC that I discovered my passion for general chemistry and statistics and where I began to envision a career driven by curiosity, impact, and purpose. </p>
+</div>
 
-<p>[Associate's Degree]{.h4}</p>
+<div style="flex-shrink: 0;">
+  <img src="images/smc-campus.jpg" alt="SMC Campus" style="height: 200px; border-radius: 8px;">
+</div>
 
-<ul>
-
-<li>Cumulative GPA: 3.5 (Honors/Cum Laude)</li>
-
-</ul>
-
-<p><strong>Description:</strong> Most of my time during community college was during quarantine.</p>
+</div>
 :::
-
-\[Small Image\]
 
 ::: gray-block
-<p>[International Christian University]{.h2}</p>
+<div style="display: flex; align-items: flex-start; justify-content: space-between; gap: 2rem; margin-bottom: 3rem;">
 
-<p>[March 2024 – June 2024]{.programdate}</p>
+<!-- ICU -->
+<div style="flex: 1;">
+  <p style="font-size: 1.5rem; font-weight: bold; display: flex; align-items: center; gap: 0.5rem;">
+    <img src="images/icu-logo.jpg" alt="ICU Logo" style="height: 30px;"> International Christian University
+  </p>
+  <p class="programdate">March 2024 – June 2024</p>
+  <p><span class="h4">Study Abroad Program</span></p>
+  <p> In Spring 2024, I participated in a trimester-long study abroad program at International Christian University (ICU) in Tokyo, Japan. The program offered valuable exposure to Japanese academic and cultural environments, and provided the opportunity to engage with a diverse international student community. Immersing myself in a completely unfamiliar setting challenged me in unexpected ways—academically, socially, and personally. While the experience was often overwhelming, it ultimately strengthened my adaptability, broadened my perspective, and taught me how to navigate discomfort and uncertainty with resilience.</p>
+</div>
 
-<p>[Study Abroad Program]{.h4}</p>
+<div style="flex-shrink: 0;">
+  <img src="images/icu-campus.jpg" alt="ICU Campus" style="height: 200px; border-radius: 8px;">
+</div>
 
-<p><strong>Description:</strong> Participated in a trimester-long study abroad program at International Christian University (ICU) in Tokyo, Japan. Engaged in courses within the liberal arts curriculum, enhancing cross-cultural communication skills and gaining exposure to Japanese academic and cultural environments. The program emphasized bilingual education and offered opportunities to interact with a diverse international student body.</p>
-:::
-
-\[Small Images\]
-
-::: notable-coursework
-<h2>Notable Coursework</h2>
-
-<h3>Renewable Energy Systems – UCSB</h3>
-
-<ul>
-
-<li>Examining economic policies</li>
-
-<li>Energy storage</li>
-
-<li>Wind, solar, tidal, geothermal energy systems</li>
-
-</ul>
-
-<h3>Green Building – UCSB</h3>
-
-<ul>
-
-<li>Systems to reduce energy demand</li>
-
-<li>Implementing renewable energy and materials</li>
-
-<li>Cost implications</li>
-
-<li>Analyzing energy efficient systems</li>
-
-</ul>
-
-<h3>Geographic Information System (GIS) – UCSB</h3>
-
-<ul>
-
-<li>Capture, manage, analyze, and share spatial data</li>
-
-<li>Create maps based on findings</li>
-
-<li>Windows proficiency</li>
-
-<li>Generate clear spatial questions</li>
-
-</ul>
-
-<h3>Environmental Statistics – UCSB</h3>
-
-<ul>
-
-<li>Understand basic probability and statistics</li>
-
-<li>Select statistical analyses for hypotheses</li>
-
-<li>Analyze and visualize data using R coding</li>
-
-<li>Ensure reproducibility and collaboration</li>
-
-<li>Interpret results in environmental contexts</li>
-
-</ul>
-
-<h3>Engineering and Environmental Geology – UCSB</h3>
-
-<ul>
-
-<li>Recording and analyzing aerial imagery</li>
-
-<li>Analyzing fire, flood, air quality hazards</li>
-
-<li>Analyzing and plotting water level data</li>
-
-<li>Examining oil well safety</li>
-
-<li>Reporting and presenting findings</li>
-
-</ul>
-
-<h3>Biology Laboratory – Los Angeles Community College</h3>
-
-<ul>
-
-<li>Microscope proficiency</li>
-
-<li>Animal behavior</li>
-
-<li>Osmosis and diffusion</li>
-
-<li>Cellular respiration</li>
-
-<li>Gel electrophoresis</li>
-
-</ul>
-
-<h3>Conservation Planning – UCSB</h3>
-
-<ul>
-
-<li>Developing conservation plans for different species and ecosystems</li>
-
-<li>Miradi profficiency</li>
-
-<li>Fundamental objectives charts and webs</li>
-
-<li>Working with Northern Chumash Council tribe for erosion control</li>
-
-</ul>
+</div>
 :::

@@ -1,16 +1,22 @@
 project:
   type: website
   output-dir: docs
-
 website:
   title: "Rachel Alvarado"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - education.qmd
-      - posts.qmd
-      - extracurriculars.qmd
+      - text: Education
+        menu:
+          - text: "Schools Attended"
+            href: education.qmd
+          - text: "Coursework"
+            href: coursework.qmd
+      - href: posts.qmd
+        text: Blog
+      - href: extracurriculars.qmd
+        text: Extracurriculars
 
 format:
   html:
