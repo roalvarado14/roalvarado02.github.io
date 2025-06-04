@@ -144,11 +144,15 @@ format: html
 
 <h3>Conservation Planning – UCSB</h3>
 
-<li>Monitoring and adaptive management</li>
+<ul>
 
 <li>Developing conservation plans for different species and ecosystems</li>
 
 <li>Miradi profficiency</li>
 
 <li>Fundamental objectives charts and webs</li>
+
+<li>Working with Northern Chumash Council tribe for erosion control</li>
+
+</ul>
 :::
