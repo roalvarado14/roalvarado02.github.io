@@ -1,5 +1,15 @@
 ---
-title: "index"
+title: "Erosion Control: Jalama Valley Ranch" 
+description: "A conservation plan focusing on erosion control at Jalama Valley Ranch in Lompoc, California. We worked closely with the Nothern Chumash Tribal Council to explore strategies to stabilize the soil."
+author:
+  - name: Rachel Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse 
+    url: https://roalvarado02.github.io/
+    affiliation: University of California, Santa Barbara 
+date: 05-22-25
+categories: [Erosion control, Site evaluation]
+citation: 
+  url: https://docs.google.com/document/d/e/2PACX-1vQ_FFoOCSTMBIz4omijEOzkM7RjnsybZhl93-xL90oXeC0m1IfEhoLEPybXbzd_R39uaQXuIXcaFgJY/pub
+image: ranch.png
+draft: false
 format: html
 ---
-
