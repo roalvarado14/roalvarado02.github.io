@@ -1,0 +1,120 @@
+---
+title: "Environemntal Statistics - Personal Data Problem" 
+description: "This is an assignment from my Environmental Statistics class where I had to record personal data for several weeks.
+My question was: Do I take more daily steps if I get more hours of sleep the night before? 
+The following figures show graphs and tables of my collected data and captions exploring what their values mean."
+author:
+  - name: Rachel Alvarado 
+    url: https://roalvarado02.github.io/
+    affiliation: University of California, Santa Barbara 
+date: 05-28-25
+categories: [RStudio, Graphs]
+citation: 
+  url: https://roalvarado02.github.io/posts/stats
+image: graph.png
+draft: false
+format: html
+execute:
+  message: false # use this to make sure messages don't show up
+  warning: false 
+---
+
+# Problem 1: Personal data
+
+```{r}
+library(tidyverse)  #general use
+library(here) #file organization
+library(gt) #creating tables
+library(janitor) #cleaning data frames
+library(readxl) #reading xl files
+library (jpeg) #adding jpeg images
+
+#read in data
+my_data <- read_csv("/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv") 
+
+```
+
+## a. Data Summarizing
+
+I am summarizing my data by taking the mean number of steps taken for each sleep category: less than 7 hours, 7–8 hours, 8–9 hours, 9–10 hours, and 10 or more hours, and comparing my daily step counts across different sleep durations. I sleep less when I have to get up early and be out of the house, so I think I will walk more compared to the days I am able to sleep in.
+
+## b. Vizualization
+
+```{r}
+# Set ggplot theme
+theme_set(theme_bw())
+
+# Clean and categorize data
+my_data <- my_data |> 
+  clean_names() |> 
+  #making columns based on sleep category
+  mutate(sleep_category = cut(
+    sleep_hours,
+    breaks = c(-Inf, 7, 8, 9, 10, Inf),
+    labels = c("Less than 7", "7–8", "8–9", "9–10", "10 or more"),
+    right = FALSE)) #includes the lesser value
+
+# Create plot and input x and y axis values from table
+ggplot(my_data, 
+       aes(x = sleep_category, 
+           y = exercise_steps, 
+           color = sleep_category)) +
+  
+  # Add jitter layer
+  geom_jitter(shape = 1, height = 0, width = 0.2, alpha = 0.6) +
+  
+  # Colored filled mean points
+  stat_summary(
+    geom = "point", 
+    fun = mean, 
+    size = 4, 
+    aes(color = sleep_category)) +
+
+  # Label x and y axis and title
+  labs(x = "Sleep Duration Category",
+       y = "Number of Steps",
+       title = "Daily Steps vs Sleep Duration Category") +
+
+  # Remove legend 
+  theme(legend.position = "none") +
+
+  # Manually set color palette
+  scale_color_manual(values = c(
+    "Less than 7" = "red",
+    "7–8" = "orange",
+    "8–9" = "hotpink",
+    "9–10" = "green",
+    "10 or more" = "blue"
+  )) 
+
+
+```
+
+## c. Caption
+
+Figure 1 - Less than 9 hours of sleep have higher step counts compared to sleeping 9 or more hours.
+
+Scatterplot showing the relationship between categorized sleep duration and number of daily steps taken. Each open circle represents a singular day's step count, colored by sleep duration category (total n = 35). Sleeping less than 9 hours is colored red, sleeping 7-8 hours is colored orange, sleeping 8-9 hours is colored hot pink, sleeping 9-10 hours is colored green, and sleeping 10 or more hours is colored blue. The larger filled dots indicate the average steps for each group. Data was collected by self recording hours of sleep and tracking through phone step count.
+
+## d. Table presentation
+
+```{r}
+# Summarize mean steps by sleep category
+summary_table <- my_data |> 
+  group_by(sleep_category) |> 
+  summarise(Average_Steps = round(mean(exercise_steps), 1)) |> 
+  arrange(factor(sleep_category, levels = c("Less than 7", "7–8", "8–9", "9–10", "10 or more")))
+
+# Create GT table
+summary_table |> 
+  gt() |> 
+  # labeling columns and title
+  cols_label(
+    sleep_category = "Sleep Duration Category",
+    Average_Steps = "Average Steps"
+  ) |> 
+  tab_header(
+    title = "Average Daily Steps by Sleep Duration"
+  )
+
+```
