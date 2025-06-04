@@ -10,7 +10,7 @@ website:
         text: Home
       - education.qmd
       - extracurriculars.qmd
-      - projects.qmd
+      - posts.qmd 
 
 format:
   html:
