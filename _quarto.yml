@@ -14,7 +14,7 @@ website:
 
 format:
   html:
-    theme: Yeti 
+    theme: yeti
     css: styles.css
     toc: true
     page-layout: full
