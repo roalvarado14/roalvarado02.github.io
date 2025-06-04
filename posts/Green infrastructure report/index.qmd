@@ -6,7 +6,7 @@ author:
     url: https://roalvarado02.github.io/
     affiliation: University of California, Santa Barbara 
 date: 12-06-2023
-categories: [Green building, City planning]
+categories: [Green building, City planning, Report]
 citation: 
   url: https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub 
 image: green.png
