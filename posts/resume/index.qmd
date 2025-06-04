@@ -7,8 +7,13 @@ author:
 date: 06-04-23
 categories: [Resume]
 citation: 
-  url: https://roalvarado02.github.io/posts/resume/
+  url: https://roalvarado02.github.io/posts/resume
 image: resume.png
-draft: false
 format: html
+sidebar:
+  show: false
+---
+<div style="display: flex; justify-content: center;">
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vS1cBv3hPrGxY8E7SZWdvTRHS7ZLnwkGy2_F6hsVGHrKiXSpeuk2FVxn6HcjIoaxbvLvgj7Pqz6jizh/pub?embedded=true" width="65%" height="800" ></iframe>
+</div>
 ---
