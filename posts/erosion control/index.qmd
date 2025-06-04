@@ -1,15 +1,15 @@
 ---
-title: "Erosion Control: Jalama Valley Ranch" 
-description: "A conservation plan focusing on erosion control at Jalama Valley Ranch in Lompoc, California. We worked closely with the Nothern Chumash Tribal Council to explore strategies to stabilize the soil."
+title: "Case Study: IV Theater" 
+description: "An evaluation of UCSB’s IV Theater, highlighting strengths in location while identifying key areas for improvement." 
 author:
-  - name: Rachel Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse 
+  - name: Rachel Alvarado
     url: https://roalvarado02.github.io/
     affiliation: University of California, Santa Barbara 
-date: 05-22-25
-categories: [Erosion control, Site evaluation]
+date: 12-07-23
+categories: [Site evaluation, Case study]
 citation: 
-  url: https://docs.google.com/document/d/e/2PACX-1vQ_FFoOCSTMBIz4omijEOzkM7RjnsybZhl93-xL90oXeC0m1IfEhoLEPybXbzd_R39uaQXuIXcaFgJY/pub
-image: ranch.png
+  url: https://docs.google.com/document/d/e/2PACX-1vR4sZnJJr_Ahm2wnIyQbGklwIUFFV3cJqg6QIuRjEau1Z_Eix0qZeAC-2_GzxkRbv0bMpzJzYV79emm/pub
+image: IV.png
 draft: false
 format: html
 ---
