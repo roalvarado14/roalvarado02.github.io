@@ -6,7 +6,7 @@ author:
     url: https://roalvarado02.github.io/
     affiliation: University of California, Santa Barbara 
 date: 04-26-2023
-categories: [Consulting, Site Evaluation, Geology, Report]
+categories: [Consulting, Site Evaluation, Geology]
 citation: 
   url: https://docs.google.com/document/d/e/2PACX-1vRgAV8aIk-tZg_c9FYZ6ZCwZWdf0ZPbaWqJN_vzfpDgtXec6eJt99Qks8sxAm9IqluN2ucUJDuAwzht/pub  
 image: plan.png

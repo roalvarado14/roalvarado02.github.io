@@ -6,7 +6,7 @@ author:
     url: https://roalvarado02.github.io/
     affiliation: University of California, Santa Barbara 
 date: 03-15-24
-categories: [City planning, Environmental regulations, Report]
+categories: [City planning, Environmental regulations]
 citation: 
   url: https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub 
 image: city.png

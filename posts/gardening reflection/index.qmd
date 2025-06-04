@@ -1,0 +1,15 @@
+---
+title: "Volunteering at the Methodist Church Community Garden in Isla Vista - A Reflection" 
+description: "This reflection shares my experience volunteering at a community garden meant to fight food insecurity in Isla Vista. What I found instead was a quiet, overlooked space with little community engagement. I explore the gap between intention and impact, and what it really takes to make community gardens work."
+author:
+  - name: Rachel Alvarado 
+    url: https://roalvarado02.github.io/
+    affiliation: University of California, Santa Barbara 
+date: 03-15-24
+categories: [Community gardens, Volunteering]
+citation: 
+  url: https://docs.google.com/document/d/e/2PACX-1vREDWb5-3-Twa-TQ2nuKo-TGPZJZ-yk8-CYclgKU4i5KFA9NB7yIt5EUornb6KPsv-WbhQ1udGdlzG5/pub 
+image: garden.png
+draft: false
+format: html
+---
