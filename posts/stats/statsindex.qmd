@@ -8,7 +8,7 @@ author:
     url: https://roalvarado02.github.io/
     affiliation: University of California, Santa Barbara 
 date: 05-28-25
-categories: [RStudio, Graphs]
+categories: [RStudio, Graphs, Interactive plot]
 citation: 
   url: https://roalvarado02.github.io/posts/stats
 image: graph.png
@@ -22,15 +22,18 @@ execute:
 # Problem 1: Personal data
 
 ```{r}
+install.packages("plotly") #interactive plot
 library(tidyverse)  #general use
 library(here) #file organization
 library(gt) #creating tables
 library(janitor) #cleaning data frames
 library(readxl) #reading xl files
 library (jpeg) #adding jpeg images
+library(plotly) #interactive plot
 
 #read in data
 my_data <- read_csv("/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv") 
+options(repos = c(CRAN = "https://cran.rstudio.com/")) 
 
 ```
 
@@ -55,7 +58,7 @@ my_data <- my_data |>
     right = FALSE)) #includes the lesser value
 
 # Create plot and input x and y axis values from table
-ggplot(my_data, 
+p <- ggplot(my_data, 
        aes(x = sleep_category, 
            y = exercise_steps, 
            color = sleep_category)) +
@@ -87,7 +90,8 @@ ggplot(my_data,
     "10 or more" = "blue"
   )) 
 
-
+interactive_plot <- ggplotly(p)
+interactive_plot
 ```
 
 ## c. Caption
