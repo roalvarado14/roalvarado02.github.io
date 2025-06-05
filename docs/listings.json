@@ -4,11 +4,11 @@
     "items": [
       "/posts/resume/index.html",
       "/posts/stats/statsindex.html",
-      "/posts/erosion/index.html",
-      "/posts/Planning-commission/index.html",
-      "/posts/gardening/index.html",
-      "/posts/IV/index.html",
-      "/posts/Green-infra/index.html",
+      "/posts/erosion/erosionindex.html",
+      "/posts/Planning-commission/planindex.html",
+      "/posts/gardening/gardeningindex.html",
+      "/posts/IV/IVindex.html",
+      "/posts/Green-infra/green-infraindex.html",
       "/posts/Site-consulting/index.html"
     ]
   }
