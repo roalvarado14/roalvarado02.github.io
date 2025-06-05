@@ -14,14 +14,15 @@ website:
           - text: "Coursework"
             href: coursework.qmd
       - href: posts.qmd
-        text: Blog
+        text: Projects
       - href: extracurriculars.qmd
         text: Extracurriculars
 
 format:
   html:
-    theme: yeti
-    css: styles.css
+    theme: 
+      - yeti
+      - styles.scss
     toc: true
     page-layout: full
 

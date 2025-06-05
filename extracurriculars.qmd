@@ -30,7 +30,7 @@ format: html
 ## Animals Over People
 <hr>
 
-<p>WRITE</p>
+<p>Whether they could fit in the palm of my hand or crush me with their weight, I adore animals of all shapes and sizes. I have grown up with all sorts of pets my entire life and ensure that each one lives a spoiled life. I believe every life — no matter how small or seemingly insignificant — has value and deserves compassion. Animals are worthy of our respect, empathy, and protection. This belief is a driving force behind my passion for environmental science. I’m committed to making the world a better place, not just for people, but for the countless other lives we share it with. After all, the world was theirs before it was ever ours. </p>
 
 <!-- Important: No blank lines between the div and images -->
 <div class="image-grid">
@@ -50,31 +50,22 @@ format: html
 <img src="images/animals over people/kissflakey.JPG" alt="flakey">
 <img src="images/animals over people/IMG_5971.jpg" alt="hamster"></div>
 
-
 ## Gardening
 <hr>
 
-<p>Moments from my peaceful garden projects.</p>
+<p>Gardening was a passion I discovered during my time at UC Santa Barbara. It began with volunteering at the Methodist Church Garden where I learned the fundamentals of watering, weeding, mulching, and harvesting fresh vegetables. The experience was new, calming, and rewarding. This foundation prepared me for my next role with the Department of Public Worms at the ECP Student Farm. While the tasks were similar, the sense of community and shared purpose made the work even more fulfilling. Gardening has since become more than a hobby. It is a meaningful way for me to connect with the land, contribute to sustainability, and work with my community. </p>
 
 <!-- Important: No blank lines between the div and images -->
-<div class="image-grid">
-<img src="images/gardening/tulip.jpg" alt="tulip">
-<img src="images/gardening/selfie.JPG" alt="self">
-<img src="images/gardening/back.jpg" alt="back">
-<img src="images/gardening/shed.jpg" alt="shed">
-<img src="images/gardening/cil.jpg" alt="cil">
-</div>
+<div class="image-grid"><img src="images/gardening/tulip.jpg" alt="tulip"><img src="images/gardening/selfie.JPG" alt="self"><img src="images/gardening/back.jpg" alt="back"><img src="images/gardening/shed.jpg" alt="shed"><img src="images/gardening/cil.jpg" alt="cil"></div>
 
 
 ## Collaborating with the Community
 <hr>
 
-<p>Snaps from events and local volunteering efforts.</p>
+<p>I've been fortunate to collaborate with a variety of groups within the UCSB community on projects related to land planning and sustainable development. With LEED (Leaders in Environmental and Engineering Design), I contributed to the certification of Bren Hall, gaining firsthand experience in green building standards. I also partnered with UCSB leadership to assess the Isla Vista Theater and propose sustainable improvements for its infrastructure. Additionally, I had the meaningful opportunity to work alongside the Northern Chumash Tribal Council, surveying hillside erosion and exploring effective solutions to stabilize the region’s sandy soils. These experiences deepened my understanding of environmental stewardship and the importance of collaborative, place-based approaches to sustainability.</p>
 
-<div class="image-grid">
-  <img src="images/comm/roof.jpg" alt="roof">
+<div class="image-grid"><img src="images/comm/roof.jpg" alt="roof">
   <img src="images/comm/dog.jpg" alt="dog">
   <img src="images/comm/berry.jpg" alt="berry">
   <img src="images/comm/IV.jpg" alt="IV">
-  <img src="images/comm/ceiling.jpg" alt="ceiling">
-</div>
+  <img src="images/comm/ceiling.jpg" alt="ceiling"></div>

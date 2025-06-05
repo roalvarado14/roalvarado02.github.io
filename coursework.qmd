@@ -4,7 +4,6 @@ format: html
 ---
 
 ::: notable-coursework
-
 <h3>Renewable Energy Systems – UCSB</h3>
 
 <ul>

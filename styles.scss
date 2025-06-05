@@ -1,22 +1,40 @@
-/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-// Colors
-$dark-green: #858E79;
-$light-green: #D1D9CE;
-$cream: #FDFBF7;
-$gray: #64605f;
-$purple: #9158A2;
-$orange: #ad7237;
+/*-- scss:rules --*/
 
-// Base document colors
-$navbar-bg: $cream; // navbar
-$navbar-fg: $dark-green; // navbar foreground elements
-$navbar-hl: $purple; // highlight color when hovering over navbar links
-$body-bg: $light-green; // page background 
-$body-color: $gray; // page text 
-$footer-bg: $cream; // footer 
-$link-color: $purple; // hyperlinks 
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #6495ED;
+  background: linear-gradient(90deg, rgba(100,149,237,1) 0%, rgba(173, 216, 230, 1) 100%);
+  background-attachment: fixed;
+}
 
-// Inline code
-$code-bg: $cream; // inline code background color
-$code-color: $purple; // inline code text color 
+h1, h2 {
+  font-family: 'PT+Sans', Sans-Serif;
+}
+
+.navbar{
+  background-color: purple;
+}
+
+/* css styles */
+
+iframe{
+  height:800;
+  width:65%;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
