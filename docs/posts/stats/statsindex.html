@@ -103,9 +103,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<link href="../../site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
+<script src="../../site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="../../site_libs/plotly-binding-4.10.4/plotly.js"></script>
+<script src="../../site_libs/typedarray-0.1/typedarray.min.js"></script>
+<script src="../../site_libs/jquery-3.5.1/jquery.min.js"></script>
+<link href="../../site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
+<script src="../../site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
+<link href="../../site_libs/plotly-htmlwidgets-css-2.11.1/plotly-htmlwidgets.css" rel="stylesheet">
+<script src="../../site_libs/plotly-main-2.11.1/plotly-latest.min.js"></script>
 
 
-<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -129,10 +137,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../../education.html"> 
-<span class="menu-text">Education</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-education" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Education</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-education">    
+        <li>
+    <a class="dropdown-item" href="../../education.html">
+ <span class="dropdown-text">Schools Attended</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../coursework.html">
+ <span class="dropdown-text">Coursework</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Projects</span></a>
@@ -176,6 +195,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <div class="quarto-categories">
     <div class="quarto-category">RStudio</div>
     <div class="quarto-category">Graphs</div>
+    <div class="quarto-category">Interactive plot</div>
   </div>
   </div>
 
@@ -220,15 +240,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="problem-1-personal-data" class="level1">
 <h1>Problem 1: Personal data</h1>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)  <span class="co">#general use</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here) <span class="co">#file organization</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt) <span class="co">#creating tables</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor) <span class="co">#cleaning data frames</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) <span class="co">#reading xl files</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span> (jpeg) <span class="co">#adding jpeg images</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">#read in data</span></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repos =</span> <span class="fu">c</span>(<span class="at">CRAN =</span> <span class="st">"https://cran.rstudio.com/"</span>))</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"plotly"</span>) <span class="co">#interactive plot</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)  <span class="co">#general use</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(here) <span class="co">#file organization</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gt) <span class="co">#creating tables</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(janitor) <span class="co">#cleaning data frames</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl) <span class="co">#reading xl files</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span> (jpeg) <span class="co">#adding jpeg images</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(plotly) <span class="co">#interactive plot</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">#read in data</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>my_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">"/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv"</span>) </span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="fu">options</span>(<span class="at">repos =</span> <span class="fu">c</span>(<span class="at">CRAN =</span> <span class="st">"https://cran.rstudio.com/"</span>)) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <section id="a.-data-summarizing" class="level2">
 <h2 class="anchored" data-anchor-id="a.-data-summarizing">a. Data Summarizing</h2>
@@ -251,7 +275,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="at">right =</span> <span class="cn">FALSE</span>)) <span class="co">#includes the lesser value</span></span>
 <span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Create plot and input x and y axis values from table</span></span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(my_data, </span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>p <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(my_data, </span>
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>       <span class="fu">aes</span>(<span class="at">x =</span> sleep_category, </span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>           <span class="at">y =</span> exercise_steps, </span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>           <span class="at">color =</span> sleep_category)) <span class="sc">+</span></span>
@@ -281,13 +305,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a>    <span class="st">"8–9"</span> <span class="ot">=</span> <span class="st">"hotpink"</span>,</span>
 <span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>    <span class="st">"9–10"</span> <span class="ot">=</span> <span class="st">"green"</span>,</span>
 <span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>    <span class="st">"10 or more"</span> <span class="ot">=</span> <span class="st">"blue"</span></span>
-<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>  )) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-45"><a href="#cb2-45" aria-hidden="true" tabindex="-1"></a>  )) </span>
+<span id="cb2-46"><a href="#cb2-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-47"><a href="#cb2-47" aria-hidden="true" tabindex="-1"></a>interactive_plot <span class="ot">&lt;-</span> <span class="fu">ggplotly</span>(p)</span>
+<span id="cb2-48"><a href="#cb2-48" aria-hidden="true" tabindex="-1"></a>interactive_plot</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="statsindex_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
+<div class="plotly html-widget html-fill-item" id="htmlwidget-6a35186ef6fd3e6bb8dc" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-6a35186ef6fd3e6bb8dc">{"x":{"data":[{"x":[1.1298964240588247,1.0521313750185073,0.82928957017138605,1.0342809262685477,0.9277241144329309],"y":[7351,9348,5056,5546,14580],"text":["sleep_category: Less than 7<br />exercise_steps:  7351<br />sleep_category: Less than 7","sleep_category: Less than 7<br />exercise_steps:  9348<br />sleep_category: Less than 7","sleep_category: Less than 7<br />exercise_steps:  5056<br />sleep_category: Less than 7","sleep_category: Less than 7<br />exercise_steps:  5546<br />sleep_category: Less than 7","sleep_category: Less than 7<br />exercise_steps: 14580<br />sleep_category: Less than 7"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,0,0,1)","opacity":0.59999999999999998,"size":5.6692913385826778,"symbol":"circle-open","line":{"width":1.8897637795275593,"color":"rgba(255,0,0,1)"}},"hoveron":"points","name":"Less than 7","legendgroup":"Less than 7","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1.9591850266791879,1.82467199889943,1.8553286171518266,2.1696487379260363,1.9355894953943789],"y":[6805,10948,6365,6600,6596],"text":["sleep_category: 7–8<br />exercise_steps:  6805<br />sleep_category: 7–8","sleep_category: 7–8<br />exercise_steps: 10948<br />sleep_category: 7–8","sleep_category: 7–8<br />exercise_steps:  6365<br />sleep_category: 7–8","sleep_category: 7–8<br />exercise_steps:  6600<br />sleep_category: 7–8","sleep_category: 7–8<br />exercise_steps:  6596<br />sleep_category: 7–8"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,165,0,1)","opacity":0.59999999999999998,"size":5.6692913385826778,"symbol":"circle-open","line":{"width":1.8897637795275593,"color":"rgba(255,165,0,1)"}},"hoveron":"points","name":"7–8","legendgroup":"7–8","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[3.0664557849988343,2.9808221672661603,2.9374129316769539,2.9659006342291834,2.9389006567187606,3.0145170382224022,3.0292098783887922,3.1714189539663495],"y":[3490,10991,8610,12482,5311,12138,8505,8443],"text":["sleep_category: 8–9<br />exercise_steps:  3490<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps: 10991<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps:  8610<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps: 12482<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps:  5311<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps: 12138<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps:  8505<br />sleep_category: 8–9","sleep_category: 8–9<br />exercise_steps:  8443<br />sleep_category: 8–9"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,105,180,1)","opacity":0.59999999999999998,"size":5.6692913385826778,"symbol":"circle-open","line":{"width":1.8897637795275593,"color":"rgba(255,105,180,1)"}},"hoveron":"points","name":"8–9","legendgroup":"8–9","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[3.9333237359300255,3.874453999940306,3.9035321983508764,3.8614671177230777,3.9548839534632863,4.103339459747076,3.9257560526952147,4.0359434920363126,3.9045033978298305,3.8997077788226306,3.9872086444869637,4.0720428748987612,4.1143756369128823],"y":[6466,1903,2402,3173,3060,2435,3318,3132,2753,2279,4590,2277,1947],"text":["sleep_category: 9–10<br />exercise_steps:  6466<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  1903<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  2402<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  3173<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  3060<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  2435<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  3318<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  3132<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  2753<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  2279<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  4590<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  2277<br />sleep_category: 9–10","sleep_category: 9–10<br />exercise_steps:  1947<br />sleep_category: 9–10"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,255,0,1)","opacity":0.59999999999999998,"size":5.6692913385826778,"symbol":"circle-open","line":{"width":1.8897637795275593,"color":"rgba(0,255,0,1)"}},"hoveron":"points","name":"9–10","legendgroup":"9–10","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[4.9714072646573184,4.9350446331314739,5.1685800027102236,4.8365835960954424],"y":[4282,5686,6462,5274],"text":["sleep_category: 10 or more<br />exercise_steps:  4282<br />sleep_category: 10 or more","sleep_category: 10 or more<br />exercise_steps:  5686<br />sleep_category: 10 or more","sleep_category: 10 or more<br />exercise_steps:  6462<br />sleep_category: 10 or more","sleep_category: 10 or more<br />exercise_steps:  5274<br />sleep_category: 10 or more"],"type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,255,1)","opacity":0.59999999999999998,"size":5.6692913385826778,"symbol":"circle-open","line":{"width":1.8897637795275593,"color":"rgba(0,0,255,1)"}},"hoveron":"points","name":"10 or more","legendgroup":"10 or more","showlegend":true,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[1],"y":[8376.2000000000007],"text":"sleep_category: Less than 7<br />exercise_steps: 8376.200<br />sleep_category: Less than 7","type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,0,0,1)","opacity":1,"size":15.118110236220474,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(255,0,0,1)"}},"hoveron":"points","name":"Less than 7","legendgroup":"Less than 7","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[2],"y":[7462.8000000000002],"text":"sleep_category: 7–8<br />exercise_steps: 7462.800<br />sleep_category: 7–8","type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,165,0,1)","opacity":1,"size":15.118110236220474,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(255,165,0,1)"}},"hoveron":"points","name":"7–8","legendgroup":"7–8","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[3],"y":[8746.25],"text":"sleep_category: 8–9<br />exercise_steps: 8746.250<br />sleep_category: 8–9","type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(255,105,180,1)","opacity":1,"size":15.118110236220474,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(255,105,180,1)"}},"hoveron":"points","name":"8–9","legendgroup":"8–9","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[4],"y":[3056.5384615384614],"text":"sleep_category: 9–10<br />exercise_steps: 3056.538<br />sleep_category: 9–10","type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,255,0,1)","opacity":1,"size":15.118110236220474,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,255,0,1)"}},"hoveron":"points","name":"9–10","legendgroup":"9–10","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null},{"x":[5],"y":[5426],"text":"sleep_category: 10 or more<br />exercise_steps: 5426.000<br />sleep_category: 10 or more","type":"scatter","mode":"markers","marker":{"autocolorscale":false,"color":"rgba(0,0,255,1)","opacity":1,"size":15.118110236220474,"symbol":"circle","line":{"width":1.8897637795275593,"color":"rgba(0,0,255,1)"}},"hoveron":"points","name":"10 or more","legendgroup":"10 or more","showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.762557077625573,"r":7.3059360730593621,"b":40.182648401826491,"l":54.794520547945211},"plot_bgcolor":"rgba(255,255,255,1)","paper_bgcolor":"rgba(255,255,255,1)","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724},"title":{"text":"Daily Steps vs Sleep Duration Category","font":{"color":"rgba(0,0,0,1)","family":"","size":17.534246575342465},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.40000000000000002,5.5999999999999996],"tickmode":"array","ticktext":["Less than 7","7–8","8–9","9–10","10 or more"],"tickvals":[1,2,3,4,5],"categoryorder":"array","categoryarray":["Less than 7","7–8","8–9","9–10","10 or more"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"y","title":{"text":"Sleep Duration Category","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[1269.1500000000001,15213.85],"tickmode":"array","ticktext":["5000","10000","15000"],"tickvals":[5000,10000,15000],"categoryorder":"array","categoryarray":["5000","10000","15000"],"nticks":null,"ticks":"outside","tickcolor":"rgba(51,51,51,1)","ticklen":3.6529680365296811,"tickwidth":0.66417600664176002,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.68949771689498},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":true,"gridcolor":"rgba(235,235,235,1)","gridwidth":0.66417600664176002,"zeroline":false,"anchor":"x","title":{"text":"Number of Steps","font":{"color":"rgba(0,0,0,1)","family":"","size":14.611872146118724}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":"transparent","line":{"color":"rgba(51,51,51,1)","width":0.66417600664176002,"linetype":"solid"},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":"rgba(255,255,255,1)","bordercolor":"transparent","borderwidth":1.8897637795275593,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.68949771689498}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"source":"A","attrs":{"ae0577b879c2":{"x":{},"y":{},"colour":{},"type":"scatter"},"ae055a50f5c3":{"x":{},"y":{},"colour":{}}},"cur_data":"ae0577b879c2","visdat":{"ae0577b879c2":["function (y) ","x"],"ae055a50f5c3":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </section>
@@ -317,23 +341,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>    <span class="at">title =</span> <span class="st">"Average Daily Steps by Sleep Duration"</span></span>
 <span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>  )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
-<div id="xpspijmsjv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#xpspijmsjv table {
+<div id="kvyowlykcz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#kvyowlykcz table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#xpspijmsjv thead, #xpspijmsjv tbody, #xpspijmsjv tfoot, #xpspijmsjv tr, #xpspijmsjv td, #xpspijmsjv th {
+#kvyowlykcz thead, #kvyowlykcz tbody, #kvyowlykcz tfoot, #kvyowlykcz tr, #kvyowlykcz td, #kvyowlykcz th {
   border-style: none;
 }
 
-#xpspijmsjv p {
+#kvyowlykcz p {
   margin: 0;
   padding: 0;
 }
 
-#xpspijmsjv .gt_table {
+#kvyowlykcz .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -359,12 +383,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-left-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_caption {
+#kvyowlykcz .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#xpspijmsjv .gt_title {
+#kvyowlykcz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -376,7 +400,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-width: 0;
 }
 
-#xpspijmsjv .gt_subtitle {
+#kvyowlykcz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -388,7 +412,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-width: 0;
 }
 
-#xpspijmsjv .gt_heading {
+#kvyowlykcz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -400,13 +424,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_bottom_border {
+#kvyowlykcz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_col_headings {
+#kvyowlykcz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -421,7 +445,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_col_heading {
+#kvyowlykcz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -441,7 +465,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#xpspijmsjv .gt_column_spanner_outer {
+#kvyowlykcz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -453,15 +477,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 4px;
 }
 
-#xpspijmsjv .gt_column_spanner_outer:first-child {
+#kvyowlykcz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xpspijmsjv .gt_column_spanner_outer:last-child {
+#kvyowlykcz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xpspijmsjv .gt_column_spanner {
+#kvyowlykcz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -473,11 +497,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   width: 100%;
 }
 
-#xpspijmsjv .gt_spanner_row {
+#kvyowlykcz .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#xpspijmsjv .gt_group_heading {
+#kvyowlykcz .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -503,7 +527,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   text-align: left;
 }
 
-#xpspijmsjv .gt_empty_group_heading {
+#kvyowlykcz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -518,15 +542,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: middle;
 }
 
-#xpspijmsjv .gt_from_md > :first-child {
+#kvyowlykcz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xpspijmsjv .gt_from_md > :last-child {
+#kvyowlykcz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xpspijmsjv .gt_row {
+#kvyowlykcz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -545,7 +569,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   overflow-x: hidden;
 }
 
-#xpspijmsjv .gt_stub {
+#kvyowlykcz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -558,7 +582,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#xpspijmsjv .gt_stub_row_group {
+#kvyowlykcz .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -572,15 +596,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   vertical-align: top;
 }
 
-#xpspijmsjv .gt_row_group_first td {
+#kvyowlykcz .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#xpspijmsjv .gt_row_group_first th {
+#kvyowlykcz .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#xpspijmsjv .gt_summary_row {
+#kvyowlykcz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -590,16 +614,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#xpspijmsjv .gt_first_summary_row {
+#kvyowlykcz .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_first_summary_row.thick {
+#kvyowlykcz .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#xpspijmsjv .gt_last_summary_row {
+#kvyowlykcz .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -609,7 +633,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_grand_summary_row {
+#kvyowlykcz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -619,7 +643,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#xpspijmsjv .gt_first_grand_summary_row {
+#kvyowlykcz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -629,7 +653,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-top-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_last_grand_summary_row_top {
+#kvyowlykcz .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -639,11 +663,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_striped {
+#kvyowlykcz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xpspijmsjv .gt_table_body {
+#kvyowlykcz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -652,7 +676,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-bottom-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_footnotes {
+#kvyowlykcz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -666,7 +690,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_footnote {
+#kvyowlykcz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -675,7 +699,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#xpspijmsjv .gt_sourcenotes {
+#kvyowlykcz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -689,7 +713,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   border-right-color: #D3D3D3;
 }
 
-#xpspijmsjv .gt_sourcenote {
+#kvyowlykcz .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -697,72 +721,72 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   padding-right: 5px;
 }
 
-#xpspijmsjv .gt_left {
+#kvyowlykcz .gt_left {
   text-align: left;
 }
 
-#xpspijmsjv .gt_center {
+#kvyowlykcz .gt_center {
   text-align: center;
 }
 
-#xpspijmsjv .gt_right {
+#kvyowlykcz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xpspijmsjv .gt_font_normal {
+#kvyowlykcz .gt_font_normal {
   font-weight: normal;
 }
 
-#xpspijmsjv .gt_font_bold {
+#kvyowlykcz .gt_font_bold {
   font-weight: bold;
 }
 
-#xpspijmsjv .gt_font_italic {
+#kvyowlykcz .gt_font_italic {
   font-style: italic;
 }
 
-#xpspijmsjv .gt_super {
+#kvyowlykcz .gt_super {
   font-size: 65%;
 }
 
-#xpspijmsjv .gt_footnote_marks {
+#kvyowlykcz .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#xpspijmsjv .gt_asterisk {
+#kvyowlykcz .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#xpspijmsjv .gt_indent_1 {
+#kvyowlykcz .gt_indent_1 {
   text-indent: 5px;
 }
 
-#xpspijmsjv .gt_indent_2 {
+#kvyowlykcz .gt_indent_2 {
   text-indent: 10px;
 }
 
-#xpspijmsjv .gt_indent_3 {
+#kvyowlykcz .gt_indent_3 {
   text-indent: 15px;
 }
 
-#xpspijmsjv .gt_indent_4 {
+#kvyowlykcz .gt_indent_4 {
   text-indent: 20px;
 }
 
-#xpspijmsjv .gt_indent_5 {
+#kvyowlykcz .gt_indent_5 {
   text-indent: 25px;
 }
 
-#xpspijmsjv .katex-display {
+#kvyowlykcz .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#xpspijmsjv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#kvyowlykcz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
