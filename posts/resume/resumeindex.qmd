@@ -1,0 +1,26 @@
+---
+title: "2025 Resume" 
+description: "My updated resume including my education, leadership experience, and volunteer experience." 
+author:
+  - name: Rachel Alvarado
+    url: https://roalvarado02.github.io/
+date: 06-04-25
+categories: [Resume]
+citation: 
+  url: https://roalvarado02.github.io/posts/resume
+image: resume.png
+format: html
+sidebar:
+  show: false
+---
+
+::: {style="display: flex; justify-content: center;"}
+<iframe
+  src="resume.pdf"
+  width="100%"
+  height="800"
+  style="border: none;"
+  title="Embedded PDF">
+</iframe>
+:::
+------------------------------------------------------------------------
