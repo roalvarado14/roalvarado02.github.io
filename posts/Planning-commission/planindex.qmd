@@ -8,14 +8,18 @@ author:
 date: 03-15-24
 categories: [City planning, Environmental regulations]
 citation: 
-  url: https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub 
+  url: https://roalvarado02.github.io/posts/Planning-commission
 image: city.png
 draft: false
 format: html
 ---
 
 ::: {style="display: flex; justify-content: center;"}
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub?embedded=true" width="200%" height="800">
-
+<iframe
+  src="field.pdf"
+  width="100%"
+  height="800"
+  style="border: none;"
+  title="Embedded PDF">
 </iframe>
 :::

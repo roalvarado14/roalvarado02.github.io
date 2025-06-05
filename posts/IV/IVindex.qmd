@@ -8,14 +8,18 @@ author:
 date: 12-07-23
 categories: [Site evaluation, Case study]
 citation: 
-  url: https://docs.google.com/document/d/e/2PACX-1vR4sZnJJr_Ahm2wnIyQbGklwIUFFV3cJqg6QIuRjEau1Z_Eix0qZeAC-2_GzxkRbv0bMpzJzYV79emm/pub
+  url: https://roalvarado02.github.io/posts/IV
 image: IV.png
 draft: false
 format: html
 ---
 
 ::: {style="display: flex; justify-content: center;"}
-<iframe src="https://docs.google.com/document/d/e/2PACX-1vR4sZnJJr_Ahm2wnIyQbGklwIUFFV3cJqg6QIuRjEau1Z_Eix0qZeAC-2_GzxkRbv0bMpzJzYV79emm/pub?embedded=true" width="80%" height="800">
-
+<iframe
+  src="IV.pdf"
+  width="100%"
+  height="800"
+  style="border: none;"
+  title="Embedded PDF">
 </iframe>
 :::
