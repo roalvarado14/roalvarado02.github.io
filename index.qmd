@@ -17,9 +17,8 @@ about:
     - text: Email
       href: mailto:roalvarado@ucsb.edu
       target: _blank
-
 ---
 
-## About me 
+## About me
 
-Welcome to my website! My name is Rachel Alvarado and I am a fourth year Environmental Studies major attending UC Santa Barbara. I am interested in habitat conservation and environmental consulting and I intend to work with the city of Los Angeles upon graduating. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests. 
+Welcome to my website! My name is Rachel Alvarado and I am a recent Environmental Studies graduate from UC Santa Barbara. I am interested in habitat conservation, environmental consulting, and green building. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests.\
