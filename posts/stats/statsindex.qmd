@@ -21,7 +21,7 @@ execute:
 
 # Problem 1: Personal data
 
-```{r}
+```{r eval=FALSE}
 options(repos = c(CRAN = "https://cran.rstudio.com/"))
 install.packages("plotly") #interactive plot
 library(tidyverse)  #general use
@@ -44,7 +44,7 @@ I am summarizing my data by taking the mean number of steps taken for each sleep
 
 ## b. Vizualization
 
-```{r}
+```{r eval=FALSE}
 # Set ggplot theme
 theme_set(theme_bw())
 
@@ -103,7 +103,7 @@ Scatterplot showing the relationship between categorized sleep duration and numb
 
 ## d. Table presentation
 
-```{r}
+```{r eval=FALSE}
 # Summarize mean steps by sleep category
 summary_table <- my_data |> 
   group_by(sleep_category) |> 

@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "coursework.html",
+    "href": "coursework.html",
+    "title": "Education - Notable Coursework",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rachel Alvarado",
-    "section": "",
-    "text": "Welcome to my website! My name is Rachel Alvarado and I am a fourth year Environmental Studies major attending UC Santa Barbara. I am interested in habitat conservation and environmental consulting and I intend to work with the city of Los Angeles upon graduating. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests."
-  },
-  {
-    "objectID": "index.html#about-me",
-    "href": "index.html#about-me",
-    "title": "Rachel Alvarado",
-    "section": "",
-    "text": "Welcome to my website! My name is Rachel Alvarado and I am a fourth year Environmental Studies major attending UC Santa Barbara. I am interested in habitat conservation and environmental consulting and I intend to work with the city of Los Angeles upon graduating. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests."
+    "text": "Renewable Energy Systems – UCSB\n\n\n\nExamining economic policies\n\n\nEnergy storage\n\n\nWind, solar, tidal, geothermal energy systems\n\n\n\nGreen Building – UCSB\n\n\n\nSystems to reduce energy demand\n\n\nImplementing renewable energy and materials\n\n\nCost implications\n\n\nAnalyzing energy efficient systems\n\n\n\nGeographic Information System (GIS) – UCSB\n\n\n\nCapture, manage, analyze, and share spatial data\n\n\nCreate maps based on findings\n\n\nWindows proficiency\n\n\nGenerate clear spatial questions\n\n\n\nEnvironmental Statistics – UCSB\n\n\n\nUnderstand basic probability and statistics\n\n\nSelect statistical analyses for hypotheses\n\n\nAnalyze and visualize data using R coding\n\n\nEnsure reproducibility and collaboration\n\n\nInterpret results in environmental contexts\n\n\n\nEngineering and Environmental Geology – UCSB\n\n\n\nRecording and analyzing aerial imagery\n\n\nAnalyzing fire, flood, air quality hazards\n\n\nAnalyzing and plotting water level data\n\n\nExamining oil well safety\n\n\nReporting and presenting findings\n\n\n\nBiology Laboratory – Los Angeles Community College\n\n\n\nMicroscope proficiency\n\n\nAnimal behavior\n\n\nOsmosis and diffusion\n\n\nCellular respiration\n\n\nGel electrophoresis\n\n\n\nConservation Planning – UCSB\n\n\n\nDeveloping conservation plans for different species and ecosystems\n\n\nMiradi profficiency\n\n\nFundamental objectives charts and webs\n\n\nWorking with Northern Chumash Council tribe for erosion control"
   },
   {
     "objectID": "extracurriculars.html",
@@ -28,25 +14,53 @@
     "text": "Whether they could fit in the palm of my hand or crush me with their weight, I adore animals of all shapes and sizes. I have grown up with all sorts of pets my entire life and ensure that each one lives a spoiled life. I believe every life — no matter how small or seemingly insignificant — has value and deserves compassion. Animals are worthy of our respect, empathy, and protection. This belief is a driving force behind my passion for environmental science. I’m committed to making the world a better place, not just for people, but for the countless other lives we share it with. After all, the world was theirs before it was ever ours."
   },
   {
-    "objectID": "posts/Planning-commission/index.html",
-    "href": "posts/Planning-commission/index.html",
-    "title": "Planning in Practice: A Case Study of 1533 Shoreline Drive",
+    "objectID": "extracurriculars.html#animals-over-people",
+    "href": "extracurriculars.html#animals-over-people",
+    "title": "Interests: Learn More About Me",
     "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Planning in {Practice:} {A} {Case} {Study} of 1533\n    {Shoreline} {Drive}},\n  date = {2024-03-15},\n  url = {https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Planning in Practice: A Case Study of\n1533 Shoreline Drive.” March 15, 2024. https://docs.google.com/document/d/e/2PACX-1vTWJ4Q3JTlGwgLHuvhIxR4FqcnwiAlJUItlYFA41HmR5WpjpTanXMxxabhOZMZDtQF2S_kY5Cy21CVT/pub."
+    "text": "Whether they could fit in the palm of my hand or crush me with their weight, I adore animals of all shapes and sizes. I have grown up with all sorts of pets my entire life and ensure that each one lives a spoiled life. I believe every life — no matter how small or seemingly insignificant — has value and deserves compassion. Animals are worthy of our respect, empathy, and protection. This belief is a driving force behind my passion for environmental science. I’m committed to making the world a better place, not just for people, but for the countless other lives we share it with. After all, the world was theirs before it was ever ours."
   },
   {
-    "objectID": "posts/erosion/index.html",
-    "href": "posts/erosion/index.html",
-    "title": "Erosion Control: Jalama Valley Ranch",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado,_miki_itoi,_sequoia_marx,_molly_quigg,_crane_zeisse2025,\n  author = {Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane\n    Zeisse, Rachel},\n  title = {Erosion {Control:} {Jalama} {Valley} {Ranch}},\n  date = {2025-05-22},\n  url = {https://roalvarado02.github.io/posts/erosion},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse, Rachel.\n2025. “Erosion Control: Jalama Valley Ranch.” May 22, 2025.\nhttps://roalvarado02.github.io/posts/erosion."
+    "objectID": "extracurriculars.html#gardening",
+    "href": "extracurriculars.html#gardening",
+    "title": "Interests: Learn More About Me",
+    "section": "Gardening",
+    "text": "Gardening\n\n\nGardening was a passion I discovered during my time at UC Santa Barbara. It began with volunteering at the Methodist Church Garden where I learned the fundamentals of watering, weeding, mulching, and harvesting fresh vegetables. The experience was new, calming, and rewarding. This foundation prepared me for my next role with the Department of Public Worms at the ECP Student Farm. While the tasks were similar, the sense of community and shared purpose made the work even more fulfilling. Gardening has since become more than a hobby. It is a meaningful way for me to connect with the land, contribute to sustainability, and work with my community."
   },
   {
-    "objectID": "posts/IV/index.html",
-    "href": "posts/IV/index.html",
+    "objectID": "extracurriculars.html#collaborating-with-the-community",
+    "href": "extracurriculars.html#collaborating-with-the-community",
+    "title": "Interests: Learn More About Me",
+    "section": "Collaborating with the Community",
+    "text": "Collaborating with the Community\n\n\nI’ve been fortunate to collaborate with a variety of groups within the UCSB community on projects related to land planning and sustainable development. With LEED (Leaders in Environmental and Engineering Design), I contributed to the certification of Bren Hall, gaining firsthand experience in green building standards. I also partnered with UCSB leadership to assess the Isla Vista Theater and propose sustainable improvements for its infrastructure. Additionally, I had the meaningful opportunity to work alongside the Northern Chumash Tribal Council, surveying hillside erosion and exploring effective solutions to stabilize the region’s sandy soils. These experiences deepened my understanding of environmental stewardship and the importance of collaborative, place-based approaches to sustainability."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rachel Alvarado",
+    "section": "",
+    "text": "Welcome to my website! My name is Rachel Alvarado and I am a recent Environmental Studies graduate from UC Santa Barbara. I am interested in habitat conservation, environmental consulting, and green building. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Rachel Alvarado",
+    "section": "",
+    "text": "Welcome to my website! My name is Rachel Alvarado and I am a recent Environmental Studies graduate from UC Santa Barbara. I am interested in habitat conservation, environmental consulting, and green building. This webpage showcases my studies, experience, and extracurriculars. This website is continuously updated to encompass my increasing accomplishments and interests."
+  },
+  {
+    "objectID": "posts/IV/IVindex.html",
+    "href": "posts/IV/IVindex.html",
     "title": "Case Study: IV Theater",
     "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {Case {Study:} {IV} {Theater}},\n  date = {2023-12-07},\n  url = {https://docs.google.com/document/d/e/2PACX-1vR4sZnJJr_Ahm2wnIyQbGklwIUFFV3cJqg6QIuRjEau1Z_Eix0qZeAC-2_GzxkRbv0bMpzJzYV79emm/pub},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “Case Study: IV Theater.” December\n7, 2023. https://docs.google.com/document/d/e/2PACX-1vR4sZnJJr_Ahm2wnIyQbGklwIUFFV3cJqg6QIuRjEau1Z_Eix0qZeAC-2_GzxkRbv0bMpzJzYV79emm/pub."
+    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {Case {Study:} {IV} {Theater}},\n  date = {2023-12-07},\n  url = {https://roalvarado02.github.io/posts/IV},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “Case Study: IV Theater.” December\n7, 2023. https://roalvarado02.github.io/posts/IV."
+  },
+  {
+    "objectID": "posts/Green-infra/green-infraindex.html",
+    "href": "posts/Green-infra/green-infraindex.html",
+    "title": "City-Scale Building - Exploring the Benefits of Green Infrastructure",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {City-Scale {Building} - {Exploring} the {Benefits} of {Green}\n    {Infrastructure}},\n  date = {2023-12-06},\n  url = {https://roalvarado02.github.io/posts/Green-infra},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “City-Scale Building - Exploring the\nBenefits of Green Infrastructure.” December 6, 2023. https://roalvarado02.github.io/posts/Green-infra."
   },
   {
     "objectID": "posts/Site-consulting/index.html",
@@ -56,46 +70,39 @@
     "text": "CitationBibTeX citation:@online{alvarado,_vivian_liang,_johnna_roberts2023,\n  author = {Alvarado, Vivian Liang, Johnna Roberts, Rachel},\n  title = {Site {Evaluation} for {Cactus} {Farm} and {Resident}\n    {Dwelling}},\n  date = {2023-04-26},\n  url = {https://roalvarado02.github.io/posts/Site-consulting},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Vivian Liang, Johnna Roberts, Rachel. 2023. “Site\nEvaluation for Cactus Farm and Resident Dwelling.” April 26,\n2023. https://roalvarado02.github.io/posts/Site-consulting."
   },
   {
-    "objectID": "posts/resume/index.html",
-    "href": "posts/resume/index.html",
+    "objectID": "posts/Planning-commission/planindex.html",
+    "href": "posts/Planning-commission/planindex.html",
+    "title": "Planning in Practice: A Case Study of 1533 Shoreline Drive",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Planning in {Practice:} {A} {Case} {Study} of 1533\n    {Shoreline} {Drive}},\n  date = {2024-03-15},\n  url = {https://roalvarado02.github.io/posts/Planning-commission},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Planning in Practice: A Case Study of\n1533 Shoreline Drive.” March 15, 2024. https://roalvarado02.github.io/posts/Planning-commission."
+  },
+  {
+    "objectID": "posts/erosion/erosionindex.html",
+    "href": "posts/erosion/erosionindex.html",
+    "title": "Erosion Control: Jalama Valley Ranch",
+    "section": "",
+    "text": "CitationBibTeX citation:@online{alvarado,_miki_itoi,_sequoia_marx,_molly_quigg,_crane_zeisse2025,\n  author = {Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane\n    Zeisse, Rachel},\n  title = {Erosion {Control:} {Jalama} {Valley} {Ranch}},\n  date = {2025-05-22},\n  url = {https://roalvarado02.github.io/posts/erosion},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse, Rachel.\n2025. “Erosion Control: Jalama Valley Ranch.” May 22, 2025.\nhttps://roalvarado02.github.io/posts/erosion."
+  },
+  {
+    "objectID": "posts/resume/resumeindex.html",
+    "href": "posts/resume/resumeindex.html",
     "title": "2025 Resume",
     "section": "",
     "text": "CitationBibTeX citation:@online{alvarado2025,\n  author = {Alvarado, Rachel},\n  title = {2025 {Resume}},\n  date = {2025-06-04},\n  url = {https://roalvarado02.github.io/posts/resume},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2025. “2025 Resume.” June 4, 2025. https://roalvarado02.github.io/posts/resume."
   },
   {
-    "objectID": "posts/Green-infra/index.html",
-    "href": "posts/Green-infra/index.html",
-    "title": "City-Scale Building - Exploring the Benefits of Green Infrastructure",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {City-Scale {Building} - {Exploring} the {Benefits} of {Green}\n    {Infrastructure}},\n  date = {2023-12-06},\n  url = {https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “City-Scale Building - Exploring the\nBenefits of Green Infrastructure.” December 6, 2023. https://docs.google.com/document/d/e/2PACX-1vR64OS19lIGFjhxSwDjn05pVSSpzFwlvrvHvIHdGGUIU3xW4Y-6Vkf6q3VF5Ezr9YpH3wH5u4A9ER7E/pub."
-  },
-  {
-    "objectID": "posts/gardening/index.html",
-    "href": "posts/gardening/index.html",
+    "objectID": "posts/gardening/gardeningindex.html",
+    "href": "posts/gardening/gardeningindex.html",
     "title": "Volunteering at the Methodist Church Community Garden in Isla Vista - A Reflection",
     "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Volunteering at the {Methodist} {Church} {Community} {Garden}\n    in {Isla} {Vista} - {A} {Reflection}},\n  date = {2024-03-15},\n  url = {https://docs.google.com/document/d/e/2PACX-1vREDWb5-3-Twa-TQ2nuKo-TGPZJZ-yk8-CYclgKU4i5KFA9NB7yIt5EUornb6KPsv-WbhQ1udGdlzG5/pub},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Volunteering at the Methodist Church\nCommunity Garden in Isla Vista - A Reflection.” March 15, 2024.\nhttps://docs.google.com/document/d/e/2PACX-1vREDWb5-3-Twa-TQ2nuKo-TGPZJZ-yk8-CYclgKU4i5KFA9NB7yIt5EUornb6KPsv-WbhQ1udGdlzG5/pub."
-  },
-  {
-    "objectID": "education.html",
-    "href": "education.html",
-    "title": "Education - Schools Attended",
-    "section": "",
-    "text": "University of California, Santa Barbara\n\n\nSep 2022 – Jun 2025\n\n\nBachelor of Science\n\n\n\nCumulative GPA: 3.7 (Honors/Cum Laude)\n\n\n\nI transferred to UC Santa Barbara in 2022, initially as a chemistry major. However, by the end of my first year, I discovered a deep interest in environmental science. We are living in a critical era—where climate change accelerates, biodiversity declines, and pollution levels rise—yet political inaction and denial persist at the highest levels. This reality motivated me to change my major. Since then, I’ve found purpose in studying renewable energy, sustainable urban planning, building certification systems, and critically evaluating the effectiveness of environmental strategies. My natural skepticism pushed me to approach research and case studies with rigor and curiosity, questioning assumptions and seeking practical solutions. I’ve grown a lot during my time at UCSB—academically and personally—and have come to truly appreciate the campus and its vibrant community.\n\n\n\n\n\n\n\n\n\n\n\n\n Santa Monica College\n\n\nSep 2020 – May 2022\n\n\nAssociate’s Degree\n\n\n\nCumulative GPA: 3.4\n\n\n\nI attended Santa Monica College from 2020 to 2022 during the height of the COVID-19 pandemic, with most of my coursework taking place online. It wasn’t until my final semester that I was able to experience the campus in person, where I finally connected with peers and built meaningful friendships. My academic focus during this time was heavily centered on STEM, particularly chemistry and mathematics. It was at SMC that I discovered my passion for general chemistry and statistics and where I began to envision a career driven by curiosity, impact, and purpose.\n\n\n\n\n\n\n\n\n\n\n\n\n International Christian University\n\n\nMarch 2024 – June 2024\n\n\nStudy Abroad Program\n\n\nIn Spring 2024, I participated in a trimester-long study abroad program at International Christian University (ICU) in Tokyo, Japan. The program offered valuable exposure to Japanese academic and cultural environments, and provided the opportunity to engage with a diverse international student community. Immersing myself in a completely unfamiliar setting challenged me in unexpected ways—academically, socially, and personally. While the experience was often overwhelming, it ultimately strengthened my adaptability, broadened my perspective, and taught me how to navigate discomfort and uncertainty with resilience."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Projects",
-    "section": "",
-    "text": "A glimpse into my journey at UCSB — featuring case studies, creative projects, and thoughtful reflections. My latest resume is also included.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025 Resume\n\n\n\nResume\n\n\n\nMy updated resume including my education, leadership experience, and volunteer experience.\n\n\n\nRachel Alvarado\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironemntal Statistics - Personal Data Problem\n\n\n\nRStudio\n\n\nGraphs\n\n\nInteractive plot\n\n\n\nThis is an assignment from my Environmental Statistics class where I had to record personal data for several weeks. My question was: Do I take more daily steps if I get more…\n\n\n\nRachel Alvarado\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nErosion Control: Jalama Valley Ranch\n\n\n\nErosion control\n\n\nSite evaluation\n\n\n\nThis report presents a comprehensive conservation plan for addressing erosion at Jalama Valley Ranch in Lompoc, California. My group wasa given the opportunity to visit the…\n\n\n\nRachel Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse\n\n\nMay 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlanning in Practice: A Case Study of 1533 Shoreline Drive\n\n\n\nCity planning\n\n\nEnvironmental regulations\n\n\n\nAn in-depth field report analyzing the planning commission hearing for a proposed residential development in Santa Barbara. This report examines the approval process…\n\n\n\nRachel Alvarado\n\n\nMar 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVolunteering at the Methodist Church Community Garden in Isla Vista - A Reflection\n\n\n\nCommunity gardens\n\n\nVolunteering\n\n\n\nThis reflective piece explores my quarter-long experience volunteering at the Methodist Church Community Garden in Isla Vista. It was a space originally built to combat food…\n\n\n\nRachel Alvarado\n\n\nMar 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCase Study: IV Theater\n\n\n\nSite evaluation\n\n\nCase study\n\n\n\nIn this case study, I evaluated the sustainability of UCSB’s Isla Vista Theater. I was able to highlight strengths in walkability, waste management, and light pollution…\n\n\n\nRachel Alvarado\n\n\nDec 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCity-Scale Building - Exploring the Benefits of Green Infrastructure\n\n\n\nGreen building\n\n\nCity planning\n\n\n\nThis report explores how major urban centers can be reimagined through the integration of green infrastructure. Green infrastructure is an approach that blends natural…\n\n\n\nRachel Alvarado\n\n\nDec 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Evaluation for Cactus Farm and Resident Dwelling\n\n\n\nConsulting\n\n\nSite Evaluation\n\n\nGeology\n\n\n\nAn Environmental and Geological Evaluation of 2129 Hillview Pl, Arroyo Grande, CA for MDJ Inc.\n\n\n\nRachel Alvarado, Vivian Liang, Johnna Roberts\n\n\nApr 26, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Volunteering at the {Methodist} {Church} {Community} {Garden}\n    in {Isla} {Vista} - {A} {Reflection}},\n  date = {2024-03-15},\n  url = {https://roalvarado02.github.io/posts/gardening},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Volunteering at the Methodist Church\nCommunity Garden in Isla Vista - A Reflection.” March 15, 2024.\nhttps://roalvarado02.github.io/posts/gardening."
   },
   {
     "objectID": "posts/stats/statsindex.html",
     "href": "posts/stats/statsindex.html",
     "title": "Environemntal Statistics - Personal Data Problem",
     "section": "",
-    "text": "options(repos = c(CRAN = \"https://cran.rstudio.com/\"))\ninstall.packages(\"plotly\") #interactive plot\nlibrary(tidyverse)  #general use\nlibrary(here) #file organization\nlibrary(gt) #creating tables\nlibrary(janitor) #cleaning data frames\nlibrary(readxl) #reading xl files\nlibrary (jpeg) #adding jpeg images\nlibrary(plotly) #interactive plot\n\n#read in data\nmy_data &lt;- read_csv(\"/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv\") \noptions(repos = c(CRAN = \"https://cran.rstudio.com/\")) \n\n\n\nI am summarizing my data by taking the mean number of steps taken for each sleep category: less than 7 hours, 7–8 hours, 8–9 hours, 9–10 hours, and 10 or more hours, and comparing my daily step counts across different sleep durations. I sleep less when I have to get up early and be out of the house, so I think I will walk more compared to the days I am able to sleep in.\n\n\n\n\n# Set ggplot theme\ntheme_set(theme_bw())\n\n# Clean and categorize data\nmy_data &lt;- my_data |&gt; \n  clean_names() |&gt; \n  #making columns based on sleep category\n  mutate(sleep_category = cut(\n    sleep_hours,\n    breaks = c(-Inf, 7, 8, 9, 10, Inf),\n    labels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\"),\n    right = FALSE)) #includes the lesser value\n\n# Create plot and input x and y axis values from table\np &lt;- ggplot(my_data, \n       aes(x = sleep_category, \n           y = exercise_steps, \n           color = sleep_category)) +\n  \n  # Add jitter layer\n  geom_jitter(shape = 1, height = 0, width = 0.2, alpha = 0.6) +\n  \n  # Colored filled mean points\n  stat_summary(\n    geom = \"point\", \n    fun = mean, \n    size = 4, \n    aes(color = sleep_category)) +\n\n  # Label x and y axis and title\n  labs(x = \"Sleep Duration Category\",\n       y = \"Number of Steps\",\n       title = \"Daily Steps vs Sleep Duration Category\") +\n\n  # Remove legend \n  theme(legend.position = \"none\") +\n\n  # Manually set color palette\n  scale_color_manual(values = c(\n    \"Less than 7\" = \"red\",\n    \"7–8\" = \"orange\",\n    \"8–9\" = \"hotpink\",\n    \"9–10\" = \"green\",\n    \"10 or more\" = \"blue\"\n  )) \n\ninteractive_plot &lt;- ggplotly(p)\ninteractive_plot\n\n\n\n\n\n\n\n\nFigure 1 - Less than 9 hours of sleep have higher step counts compared to sleeping 9 or more hours.\nScatterplot showing the relationship between categorized sleep duration and number of daily steps taken. Each open circle represents a singular day’s step count, colored by sleep duration category (total n = 35). Sleeping less than 9 hours is colored red, sleeping 7-8 hours is colored orange, sleeping 8-9 hours is colored hot pink, sleeping 9-10 hours is colored green, and sleeping 10 or more hours is colored blue. The larger filled dots indicate the average steps for each group. Data was collected by self recording hours of sleep and tracking through phone step count.\n\n\n\n\n# Summarize mean steps by sleep category\nsummary_table &lt;- my_data |&gt; \n  group_by(sleep_category) |&gt; \n  summarise(Average_Steps = round(mean(exercise_steps), 1)) |&gt; \n  arrange(factor(sleep_category, levels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\")))\n\n# Create GT table\nsummary_table |&gt; \n  gt() |&gt; \n  # labeling columns and title\n  cols_label(\n    sleep_category = \"Sleep Duration Category\",\n    Average_Steps = \"Average Steps\"\n  ) |&gt; \n  tab_header(\n    title = \"Average Daily Steps by Sleep Duration\"\n  )\n\n\n\n\n\n\n\nAverage Daily Steps by Sleep Duration\n\n\nSleep Duration Category\nAverage Steps\n\n\n\n\nLess than 7\n8376.2\n\n\n7–8\n7462.8\n\n\n8–9\n8746.2\n\n\n9–10\n3056.5\n\n\n10 or more\n5426.0"
+    "text": "options(repos = c(CRAN = \"https://cran.rstudio.com/\"))\ninstall.packages(\"plotly\") #interactive plot\nlibrary(tidyverse)  #general use\nlibrary(here) #file organization\nlibrary(gt) #creating tables\nlibrary(janitor) #cleaning data frames\nlibrary(readxl) #reading xl files\nlibrary (jpeg) #adding jpeg images\nlibrary(plotly) #interactive plot\n\n#read in data\nmy_data &lt;- read_csv(\"/home/jovyan/ES-193DS/ENVS-193DS_homework-03/data/193DS - Personal data project - Sheet1 (1).csv\") \noptions(repos = c(CRAN = \"https://cran.rstudio.com/\")) \n\n\n\nI am summarizing my data by taking the mean number of steps taken for each sleep category: less than 7 hours, 7–8 hours, 8–9 hours, 9–10 hours, and 10 or more hours, and comparing my daily step counts across different sleep durations. I sleep less when I have to get up early and be out of the house, so I think I will walk more compared to the days I am able to sleep in.\n\n\n\n\n# Set ggplot theme\ntheme_set(theme_bw())\n\n# Clean and categorize data\nmy_data &lt;- my_data |&gt; \n  clean_names() |&gt; \n  #making columns based on sleep category\n  mutate(sleep_category = cut(\n    sleep_hours,\n    breaks = c(-Inf, 7, 8, 9, 10, Inf),\n    labels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\"),\n    right = FALSE)) #includes the lesser value\n\n# Create plot and input x and y axis values from table\np &lt;- ggplot(my_data, \n       aes(x = sleep_category, \n           y = exercise_steps, \n           color = sleep_category)) +\n  \n  # Add jitter layer\n  geom_jitter(shape = 1, height = 0, width = 0.2, alpha = 0.6) +\n  \n  # Colored filled mean points\n  stat_summary(\n    geom = \"point\", \n    fun = mean, \n    size = 4, \n    aes(color = sleep_category)) +\n\n  # Label x and y axis and title\n  labs(x = \"Sleep Duration Category\",\n       y = \"Number of Steps\",\n       title = \"Daily Steps vs Sleep Duration Category\") +\n\n  # Remove legend \n  theme(legend.position = \"none\") +\n\n  # Manually set color palette\n  scale_color_manual(values = c(\n    \"Less than 7\" = \"red\",\n    \"7–8\" = \"orange\",\n    \"8–9\" = \"hotpink\",\n    \"9–10\" = \"green\",\n    \"10 or more\" = \"blue\"\n  )) \n\ninteractive_plot &lt;- ggplotly(p)\ninteractive_plot\n\n\n\n\nFigure 1 - Less than 9 hours of sleep have higher step counts compared to sleeping 9 or more hours.\nScatterplot showing the relationship between categorized sleep duration and number of daily steps taken. Each open circle represents a singular day’s step count, colored by sleep duration category (total n = 35). Sleeping less than 9 hours is colored red, sleeping 7-8 hours is colored orange, sleeping 8-9 hours is colored hot pink, sleeping 9-10 hours is colored green, and sleeping 10 or more hours is colored blue. The larger filled dots indicate the average steps for each group. Data was collected by self recording hours of sleep and tracking through phone step count.\n\n\n\n\n# Summarize mean steps by sleep category\nsummary_table &lt;- my_data |&gt; \n  group_by(sleep_category) |&gt; \n  summarise(Average_Steps = round(mean(exercise_steps), 1)) |&gt; \n  arrange(factor(sleep_category, levels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\")))\n\n# Create GT table\nsummary_table |&gt; \n  gt() |&gt; \n  # labeling columns and title\n  cols_label(\n    sleep_category = \"Sleep Duration Category\",\n    Average_Steps = \"Average Steps\"\n  ) |&gt; \n  tab_header(\n    title = \"Average Daily Steps by Sleep Duration\"\n  )"
   },
   {
     "objectID": "posts/stats/statsindex.html#a.-data-summarizing",
@@ -123,90 +130,20 @@
     "href": "posts/stats/statsindex.html#d.-table-presentation",
     "title": "Environemntal Statistics - Personal Data Problem",
     "section": "",
-    "text": "# Summarize mean steps by sleep category\nsummary_table &lt;- my_data |&gt; \n  group_by(sleep_category) |&gt; \n  summarise(Average_Steps = round(mean(exercise_steps), 1)) |&gt; \n  arrange(factor(sleep_category, levels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\")))\n\n# Create GT table\nsummary_table |&gt; \n  gt() |&gt; \n  # labeling columns and title\n  cols_label(\n    sleep_category = \"Sleep Duration Category\",\n    Average_Steps = \"Average Steps\"\n  ) |&gt; \n  tab_header(\n    title = \"Average Daily Steps by Sleep Duration\"\n  )\n\n\n\n\n\n\n\nAverage Daily Steps by Sleep Duration\n\n\nSleep Duration Category\nAverage Steps\n\n\n\n\nLess than 7\n8376.2\n\n\n7–8\n7462.8\n\n\n8–9\n8746.2\n\n\n9–10\n3056.5\n\n\n10 or more\n5426.0"
+    "text": "# Summarize mean steps by sleep category\nsummary_table &lt;- my_data |&gt; \n  group_by(sleep_category) |&gt; \n  summarise(Average_Steps = round(mean(exercise_steps), 1)) |&gt; \n  arrange(factor(sleep_category, levels = c(\"Less than 7\", \"7–8\", \"8–9\", \"9–10\", \"10 or more\")))\n\n# Create GT table\nsummary_table |&gt; \n  gt() |&gt; \n  # labeling columns and title\n  cols_label(\n    sleep_category = \"Sleep Duration Category\",\n    Average_Steps = \"Average Steps\"\n  ) |&gt; \n  tab_header(\n    title = \"Average Daily Steps by Sleep Duration\"\n  )"
   },
   {
-    "objectID": "coursework.html",
-    "href": "coursework.html",
-    "title": "Education - Noteable Coursework",
+    "objectID": "education.html",
+    "href": "education.html",
+    "title": "Education - Schools Attended",
     "section": "",
-    "text": "Renewable Energy Systems – UCSB\n\n\n\nExamining economic policies\n\n\nEnergy storage\n\n\nWind, solar, tidal, geothermal energy systems\n\n\n\nGreen Building – UCSB\n\n\n\nSystems to reduce energy demand\n\n\nImplementing renewable energy and materials\n\n\nCost implications\n\n\nAnalyzing energy efficient systems\n\n\n\nGeographic Information System (GIS) – UCSB\n\n\n\nCapture, manage, analyze, and share spatial data\n\n\nCreate maps based on findings\n\n\nWindows proficiency\n\n\nGenerate clear spatial questions\n\n\n\nEnvironmental Statistics – UCSB\n\n\n\nUnderstand basic probability and statistics\n\n\nSelect statistical analyses for hypotheses\n\n\nAnalyze and visualize data using R coding\n\n\nEnsure reproducibility and collaboration\n\n\nInterpret results in environmental contexts\n\n\n\nEngineering and Environmental Geology – UCSB\n\n\n\nRecording and analyzing aerial imagery\n\n\nAnalyzing fire, flood, air quality hazards\n\n\nAnalyzing and plotting water level data\n\n\nExamining oil well safety\n\n\nReporting and presenting findings\n\n\n\nBiology Laboratory – Los Angeles Community College\n\n\n\nMicroscope proficiency\n\n\nAnimal behavior\n\n\nOsmosis and diffusion\n\n\nCellular respiration\n\n\nGel electrophoresis\n\n\n\nConservation Planning – UCSB\n\n\n\nDeveloping conservation plans for different species and ecosystems\n\n\nMiradi profficiency\n\n\nFundamental objectives charts and webs\n\n\nWorking with Northern Chumash Council tribe for erosion control"
+    "text": "University of California, Santa Barbara\n\n\nSep 2022 – Jun 2025\n\n\nBachelor of Science\n\n\n\nCumulative GPA: 3.7 (Honors/Cum Laude)\n\n\n\nI transferred to UC Santa Barbara in 2022, initially as a chemistry major. However, by the end of my first year, I discovered a deep interest in environmental science. We are living in a critical era—where climate change accelerates, biodiversity declines, and pollution levels rise—yet political inaction and denial persist at the highest levels. This reality motivated me to change my major. Since then, I’ve found purpose in studying renewable energy, sustainable urban planning, building certification systems, and critically evaluating the effectiveness of environmental strategies. My natural skepticism pushed me to approach research and case studies with rigor and curiosity, questioning assumptions and seeking practical solutions. I’ve grown a lot during my time at UCSB—academically and personally—and have come to truly appreciate the campus and its vibrant community.\n\n\n\n\n\n\n\n\n\n\n\n\n Santa Monica College\n\n\nSep 2020 – May 2022\n\n\nAssociate’s Degree\n\n\n\nCumulative GPA: 3.4\n\n\n\nI attended Santa Monica College from 2020 to 2022 during the height of the COVID-19 pandemic, with most of my coursework taking place online. It wasn’t until my final semester that I was able to experience the campus in person, where I finally connected with peers and built meaningful friendships. My academic focus during this time was heavily centered on STEM, particularly chemistry and mathematics. It was at SMC that I discovered my passion for general chemistry and statistics and where I began to envision a career driven by curiosity, impact, and purpose.\n\n\n\n\n\n\n\n\n\n\n\n\n International Christian University\n\n\nMarch 2024 – June 2024\n\n\nStudy Abroad Program\n\n\nIn Spring 2024, I participated in a trimester-long study abroad program at International Christian University (ICU) in Tokyo, Japan. The program offered valuable exposure to Japanese academic and cultural environments, and provided the opportunity to engage with a diverse international student community. Immersing myself in a completely unfamiliar setting challenged me in unexpected ways—academically, socially, and personally. While the experience was often overwhelming, it ultimately strengthened my adaptability, broadened my perspective, and taught me how to navigate discomfort and uncertainty with resilience."
   },
   {
-    "objectID": "extracurriculars.html#animals-over-people",
-    "href": "extracurriculars.html#animals-over-people",
-    "title": "Interests: Learn More About Me",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Projects",
     "section": "",
-    "text": "Whether they could fit in the palm of my hand or crush me with their weight, I adore animals of all shapes and sizes. I have grown up with all sorts of pets my entire life and ensure that each one lives a spoiled life. I believe every life — no matter how small or seemingly insignificant — has value and deserves compassion. Animals are worthy of our respect, empathy, and protection. This belief is a driving force behind my passion for environmental science. I’m committed to making the world a better place, not just for people, but for the countless other lives we share it with. After all, the world was theirs before it was ever ours."
-  },
-  {
-    "objectID": "extracurriculars.html#adventures-outside",
-    "href": "extracurriculars.html#adventures-outside",
-    "title": "Interests: Learn More About Me",
-    "section": "Adventures Outside",
-    "text": "Adventures Outside\n\n\nI spend much of my free time at the beach, on trails, and exploring the outdoors. These moments ground me and inspire my commitment to the environment."
-  },
-  {
-    "objectID": "extracurriculars.html#gardening",
-    "href": "extracurriculars.html#gardening",
-    "title": "Interests: Learn More About Me",
-    "section": "Gardening",
-    "text": "Gardening\n\n\nGardening was a passion I discovered during my time at UC Santa Barbara. It began with volunteering at the Methodist Church Garden where I learned the fundamentals of watering, weeding, mulching, and harvesting fresh vegetables. The experience was new, calming, and rewarding. This foundation prepared me for my next role with the Department of Public Worms at the ECP Student Farm. While the tasks were similar, the sense of community and shared purpose made the work even more fulfilling. Gardening has since become more than a hobby. It is a meaningful way for me to connect with the land, contribute to sustainability, and work with my community."
-  },
-  {
-    "objectID": "extracurriculars.html#collaborating-with-the-chumash-community",
-    "href": "extracurriculars.html#collaborating-with-the-chumash-community",
-    "title": "Extracurriculars: Learn More About Me",
-    "section": "Collaborating with the Chumash Community",
-    "text": "Collaborating with the Chumash Community\n\n\nI’ve had the privilege to learn from and work alongside members of the Chumash community. This experience helped me better understand Indigenous stewardship, traditional ecological knowledge, and cultural history."
-  },
-  {
-    "objectID": "extracurriculars.html#collaborating-with-the-community",
-    "href": "extracurriculars.html#collaborating-with-the-community",
-    "title": "Interests: Learn More About Me",
-    "section": "Collaborating with the Community",
-    "text": "Collaborating with the Community\n\n\nI’ve been fortunate to collaborate with a variety of groups within the UCSB community on projects related to land planning and sustainable development. With LEED (Leaders in Environmental and Engineering Design), I contributed to the certification of Bren Hall, gaining firsthand experience in green building standards. I also partnered with UCSB leadership to assess the Isla Vista Theater and propose sustainable improvements for its infrastructure. Additionally, I had the meaningful opportunity to work alongside the Northern Chumash Tribal Council, surveying hillside erosion and exploring effective solutions to stabilize the region’s sandy soils. These experiences deepened my understanding of environmental stewardship and the importance of collaborative, place-based approaches to sustainability."
-  },
-  {
-    "objectID": "posts/erosion/erosionindex.html",
-    "href": "posts/erosion/erosionindex.html",
-    "title": "Erosion Control: Jalama Valley Ranch",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado,_miki_itoi,_sequoia_marx,_molly_quigg,_crane_zeisse2025,\n  author = {Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane\n    Zeisse, Rachel},\n  title = {Erosion {Control:} {Jalama} {Valley} {Ranch}},\n  date = {2025-05-22},\n  url = {https://roalvarado02.github.io/posts/erosion},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse, Rachel.\n2025. “Erosion Control: Jalama Valley Ranch.” May 22, 2025.\nhttps://roalvarado02.github.io/posts/erosion."
-  },
-  {
-    "objectID": "posts/Planning-commission/planindex.html",
-    "href": "posts/Planning-commission/planindex.html",
-    "title": "Planning in Practice: A Case Study of 1533 Shoreline Drive",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Planning in {Practice:} {A} {Case} {Study} of 1533\n    {Shoreline} {Drive}},\n  date = {2024-03-15},\n  url = {https://roalvarado02.github.io/posts/Planning-commission},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Planning in Practice: A Case Study of\n1533 Shoreline Drive.” March 15, 2024. https://roalvarado02.github.io/posts/Planning-commission."
-  },
-  {
-    "objectID": "posts/IV/IVindex.html",
-    "href": "posts/IV/IVindex.html",
-    "title": "Case Study: IV Theater",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {Case {Study:} {IV} {Theater}},\n  date = {2023-12-07},\n  url = {https://roalvarado02.github.io/posts/IV},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “Case Study: IV Theater.” December\n7, 2023. https://roalvarado02.github.io/posts/IV."
-  },
-  {
-    "objectID": "posts/Green-infra/green-infraindex.html",
-    "href": "posts/Green-infra/green-infraindex.html",
-    "title": "City-Scale Building - Exploring the Benefits of Green Infrastructure",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2023,\n  author = {Alvarado, Rachel},\n  title = {City-Scale {Building} - {Exploring} the {Benefits} of {Green}\n    {Infrastructure}},\n  date = {2023-12-06},\n  url = {https://roalvarado02.github.io/posts/Green-infra},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2023. “City-Scale Building - Exploring the\nBenefits of Green Infrastructure.” December 6, 2023. https://roalvarado02.github.io/posts/Green-infra."
-  },
-  {
-    "objectID": "posts/gardening/gardeningindex.html",
-    "href": "posts/gardening/gardeningindex.html",
-    "title": "Volunteering at the Methodist Church Community Garden in Isla Vista - A Reflection",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2024,\n  author = {Alvarado, Rachel},\n  title = {Volunteering at the {Methodist} {Church} {Community} {Garden}\n    in {Isla} {Vista} - {A} {Reflection}},\n  date = {2024-03-15},\n  url = {https://roalvarado02.github.io/posts/gardening},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2024. “Volunteering at the Methodist Church\nCommunity Garden in Isla Vista - A Reflection.” March 15, 2024.\nhttps://roalvarado02.github.io/posts/gardening."
-  },
-  {
-    "objectID": "posts/resume/resumeindex.html",
-    "href": "posts/resume/resumeindex.html",
-    "title": "2025 Resume",
-    "section": "",
-    "text": "CitationBibTeX citation:@online{alvarado2025,\n  author = {Alvarado, Rachel},\n  title = {2025 {Resume}},\n  date = {2025-06-04},\n  url = {https://roalvarado02.github.io/posts/resume},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nAlvarado, Rachel. 2025. “2025 Resume.” June 4, 2025. https://roalvarado02.github.io/posts/resume."
+    "text": "A glimpse into my journey at UCSB — featuring case studies, creative projects, and thoughtful reflections. My latest resume is also included.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2025 Resume\n\n\n\nResume\n\n\n\nMy updated resume including my education, leadership experience, and volunteer experience.\n\n\n\nRachel Alvarado\n\n\nJun 4, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEnvironemntal Statistics - Personal Data Problem\n\n\n\nRStudio\n\n\nGraphs\n\n\nInteractive plot\n\n\n\nThis is an assignment from my Environmental Statistics class where I had to record personal data for several weeks. My question was: Do I take more daily steps if I get more…\n\n\n\nRachel Alvarado\n\n\nMay 28, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nErosion Control: Jalama Valley Ranch\n\n\n\nErosion control\n\n\nSite evaluation\n\n\n\nThis report presents a comprehensive conservation plan for addressing erosion at Jalama Valley Ranch in Lompoc, California. My group wasa given the opportunity to visit the…\n\n\n\nRachel Alvarado, Miki Itoi, Sequoia Marx, Molly Quigg, Crane Zeisse\n\n\nMay 22, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPlanning in Practice: A Case Study of 1533 Shoreline Drive\n\n\n\nCity planning\n\n\nEnvironmental regulations\n\n\n\nAn in-depth field report analyzing the planning commission hearing for a proposed residential development in Santa Barbara. This report examines the approval process…\n\n\n\nRachel Alvarado\n\n\nMar 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVolunteering at the Methodist Church Community Garden in Isla Vista - A Reflection\n\n\n\nCommunity gardens\n\n\nVolunteering\n\n\n\nThis reflective piece explores my quarter-long experience volunteering at the Methodist Church Community Garden in Isla Vista. It was a space originally built to combat food…\n\n\n\nRachel Alvarado\n\n\nMar 15, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCase Study: IV Theater\n\n\n\nSite evaluation\n\n\nCase study\n\n\n\nIn this case study, I evaluated the sustainability of UCSB’s Isla Vista Theater. I was able to highlight strengths in walkability, waste management, and light pollution…\n\n\n\nRachel Alvarado\n\n\nDec 7, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCity-Scale Building - Exploring the Benefits of Green Infrastructure\n\n\n\nGreen building\n\n\nCity planning\n\n\n\nThis report explores how major urban centers can be reimagined through the integration of green infrastructure. Green infrastructure is an approach that blends natural…\n\n\n\nRachel Alvarado\n\n\nDec 6, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSite Evaluation for Cactus Farm and Resident Dwelling\n\n\n\nConsulting\n\n\nSite Evaluation\n\n\nGeology\n\n\n\nAn Environmental and Geological Evaluation of 2129 Hillview Pl, Arroyo Grande, CA for MDJ Inc.\n\n\n\nRachel Alvarado, Vivian Liang, Johnna Roberts\n\n\nApr 26, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
